@@ -40,8 +40,13 @@ public class IntList {
      * You are not allowed to use "new" in this method.
      */
     public static IntList incrRecursiveDestructive(IntList L, int x) {
-        // TODO: Fill in this code
-        return null;
+        if (L == null) {
+            return null;
+        }
+        L.first += x;
+        // 终极奥义：让当前的 rest，重新指向后面处理完的链表！
+        L.rest = incrRecursiveDestructive(L.rest, x);
+        return L;
     }
 
     /*
@@ -55,7 +60,13 @@ public class IntList {
      */
     public int sum() {
         // Optional: Fill in this code
-        return 0;
+        int sum = 0;
+        IntList begin = this;
+        while (begin != null){
+            sum += begin.first;
+            begin = begin.rest;
+        }
+        return sum;
     }
 
     /**
@@ -63,6 +74,11 @@ public class IntList {
      */
     public void addLast(int x) {
         // Optional: Fill in this code
+        IntList begin = this;
+        while (begin.rest != null){
+            begin = begin.rest;
+        }
+        begin.rest = new IntList(x, null);
     }
 
     /**
@@ -72,6 +88,10 @@ public class IntList {
      * be destructive.
      */
     public void addFirst(int x) {
-        // Optional: Fill in this code
+        // 第一步：在后面造个新房子，把现在的 first 存进去，并接上原本的 rest
+        this.rest = new IntList(this.first, this.rest);
+
+        // 第二步：鸠占鹊巢！把当前的 first 改成新来的 x
+        this.first = x;
     }
 }

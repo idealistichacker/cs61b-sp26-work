@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://sp26.datastructur.es/homeworks/hw03/ -->
+<html lang="en-US" data-darkreader-mode="dynamic" data-darkreader-scheme="dark"><plasmo-csui id="DraggableSubtitleList" class="dark" data-theme="dark"><template shadowrootmode="open"><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}
+[data-darkreader-inline-bg] {
+  background: var(--darkreader-inline-bg) !important;
+}
+[data-darkreader-inline-border-short] {
+  border: var(--darkreader-inline-border-short) !important;
+}
+[data-darkreader-inline-border-bottom-short] {
+  border-bottom: var(--darkreader-inline-border-bottom-short) !important;
+}
+[data-darkreader-inline-border-left-short] {
+  border-left: var(--darkreader-inline-border-left-short) !important;
+}
+[data-darkreader-inline-border-right-short] {
+  border-right: var(--darkreader-inline-border-right-short) !important;
+}
+[data-darkreader-inline-border-top-short] {
+  border-top: var(--darkreader-inline-border-top-short) !important;
+}
+[data-darkreader-inline-invert] {
+    filter: invert(100%) hue-rotate(180deg);
+}</style><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: var(--darkreader-background-ffd76e, #855b00) !important;
+    border-color: var(--darkreader-background-c59d00, #b08800) !important;
+    color: var(--darkreader-text-302505, #e4e1db) !important;
+}
+#vimvixen-console-frame {
+    color-scheme: light !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: var(--darkreader-background-add8e6, #0c4152) !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: var(--darkreader-background-cfecf5, #002e3d) !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: var(--darkreader-background-f5f5f5, #0f1213) !important;
+}
+.tou-uknfeu {
+    background-color: var(--darkreader-background-faedda, #3a1e00) !important;
+}
+.tou-6i3zyv {
+    background-color: var(--darkreader-background-85c3d8, #16576d) !important;
+}
+div.mermaid-viewer-control-panel .btn {
+    background-color: var(--darkreader-neutral-background);
+    fill: var(--darkreader-neutral-text);
+}
+svg g rect.er {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.entityBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxOdd {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxEven {
+    fill: var(--darkreader-selection-background);
+    fill-opacity: 0.8 !important;
+}
+svg rect.er.relationshipLabelBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g g.nodes rect,
+svg g g.nodes polygon {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.task {
+    fill: var(--darkreader-selection-background) !important;
+}
+svg line.messageLine0,
+svg line.messageLine1 {
+    stroke: var(--darkreader-neutral-text) !important;
+}
+div.mermaid .actor {
+    fill: var(--darkreader-neutral-background) !important;
+}
+mitid-authenticators-code-app > .code-app-container {
+    background-color: white !important;
+    padding-top: 1rem;
+}
+iframe#unpaywall[src$="unpaywall.html"] {
+    color-scheme: light !important;
+}
+select {
+    --darkreader-bg--form-control-background-color: rgba(22, 22, 22, 0) !important;
+}
+body#tumblr {
+    --darkreader-bg--secondary-accent: 31, 32, 34 !important;
+    --darkreader-bg--white: 23, 23, 23 !important;
+    --darkreader-text--black: 228, 224, 218 !important;
+}
+:host {
+    --d2l-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-button-icon-background-color-hover: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-color-ferrite: var(--darkreader-neutral-text) !important;
+    --d2l-color-sylvite: var(--darkreader-bg--d2l-color-sylvite) !important;
+    --d2l-dropdown-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-dropdown-border-color: var(--darkreader-border--d2l-color-mica) !important;
+    --d2l-input-backgroud-color: var(--darkreader-neutral-background) !important;
+    --d2l-menu-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-tooltip-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-tooltip-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+:host([_floating]) .d2l-floating-buttons-container {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-top-color: var(--darkreader-border--d2l-color-mica) !important;
+    opacity: 0.88 !important;
+}
+d2l-card {
+    background: var(--darkreader-neutral-background) !important;
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+d2l-dropdown-content > div,
+d2l-menu-item {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-radius: 10px !important;
+}
+d2l-empty-state-simple {
+    border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-button-filter > ul > li > a.vui-button {
+    border-color: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-label-text:has(.d2l-button-subtle-content):hover,
+.d2l-label-text:has(.d2l-button-subtle-content):focus,
+.d2l-label-text:has(.d2l-button-subtle-content):active {
+    background-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-navigation-centerer {
+    color: inherit !important;
+}
+.d2l-tabs-layout {
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+.d2l-input,
+.d2l-calendar-date,
+.d2l-htmleditor-container {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-collapsible-panel {
+    border: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+    border-radius: 0.4rem !important;
+}
+.d2l-collapsible-panel-divider {
+    border-bottom: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-w2d-flex {
+    border-bottom: 2px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-collapsible-panel scrolled,
+.d2l-collapsible-panel-header,
+.d2l-w2d-collection-fixed {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-loading-spinner-bg {
+    fill: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-loading-spinner-bg-stroke {
+    stroke: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-loading-spinner-wrapper svg path,
+.d2l-loading-spinner-wrapper svg circle {
+    fill: var(--darkreader-neutral-background) !important;
+}
+.d2l-twopanelselector-side.d2l-twopanelselector-side-sep {
+    background: var(--darkreader-bg--d2l-color-mica) !important;
+}
+.d2l-le-TreeAccordionItem-anchor::before {
+    background: var(--darkreader-bg--d2l-color-corundum) !important;
+}
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }</style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula, a[data-testid="headerMediumLogo"]>svg, .d2l-navigation-link-image-container, .d2l-iframe-loading-container {
+    filter: invert(100%) hue-rotate(180deg) !important;
+}</style><style>:host{display:block;font-size:16px!important}html{all:initial;font-size:16px!important}@layer tailwind-base{*,:before,:after,::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#3b82f680;--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }*,:before,:after{box-sizing:border-box;border:0 solid #e5e7eb}:before,:after{--tw-content:""}html,:host{-webkit-text-size-adjust:100%;tab-size:4;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent;font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}body{line-height:inherit;margin:0}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-feature-settings:normal;font-variation-settings:normal;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-size:1em}small{font-size:80%}sub,sup{vertical-align:baseline;font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-feature-settings:inherit;font-variation-settings:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:#0000;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}ol,ul,menu{margin:0;padding:0;list-style:none}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder{opacity:1;color:#9ca3af}textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}button,[role=button]{cursor:pointer}:disabled{cursor:default}img,svg,video,canvas,audio,iframe,embed,object{vertical-align:middle;display:block}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}}@layer antd;.container{width:100%}@media (width>=640px){.container{max-width:640px}}@media (width>=768px){.container{max-width:768px}}@media (width>=1024px){.container{max-width:1024px}}@media (width>=1280px){.container{max-width:1280px}}@media (width>=1536px){.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.visible{visibility:visible}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-x-0{left:0;right:0}.-bottom-1{bottom:-.25rem}.-right-1{right:-.25rem}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.top-0{top:0}.z-30{z-index:30}.z-40{z-index:40}.z-50{z-index:50}.m-2{margin:.5rem}.m-4{margin:1rem}.mx-4{margin-left:1rem;margin-right:1rem}.mx-\[16px\]{margin-left:16px;margin-right:16px}.mx-\[6px\]{margin-left:6px;margin-right:6px}.my-2{margin-top:.5rem;margin-bottom:.5rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-\[16px\]{margin-bottom:16px}.mb-\[24px\]{margin-bottom:24px}.mb-\[8px\]{margin-bottom:8px}.ml-2{margin-left:.5rem}.ml-\[6px\]{margin-left:6px}.ml-\[8px\]{margin-left:8px}.mr-2{margin-right:.5rem}.mr-\[6px\]{margin-right:6px}.mt-0{margin-top:0}.mt-1{margin-top:.25rem}.mt-10{margin-top:2.5rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-\[4px\]{margin-top:4px}.box-border{box-sizing:border-box}.block{display:block}.inline-block{display:inline-block}.inline{display:inline}.flex{display:flex}.table{display:table}.grid{display:grid}.contents{display:contents}.hidden{display:none}.h-1\/2{height:50%}.h-8{height:2rem}.h-\[32px\]{height:32px}.h-\[52px\]{height:52px}.h-full{height:100%}.max-h-\[300px\]{max-height:300px}.min-h-\[40px\]{min-height:40px}.w-1\/2{width:50%}.w-1\/3{width:33.3333%}.w-11\/12{width:91.6667%}.w-14{width:3.5rem}.w-8{width:2rem}.w-96{width:24rem}.w-\[300px\]{width:300px}.w-full{width:100%}.min-w-\[20\%\]{min-width:20%}.max-w-\[120px\]{max-width:120px}.max-w-\[150px\]{max-width:150px}.max-w-\[20\%\]{max-width:20%}.max-w-none{max-width:none}.flex-1{flex:1}.flex-shrink-0{flex-shrink:0}.basis-6\/12{flex-basis:50%}.rotate-90{--tw-rotate:90deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.transform-gpu{transform:translate3d(var(--tw-translate-x),var(--tw-translate-y),0)rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}@keyframes pulse0{0%,to{box-shadow:0 0 #374151b3}50%{box-shadow:0 0 0 6px #37415100}}.animate-glow0{animation:2s cubic-bezier(.4,0,.6,1) infinite pulse0}@keyframes pulse0s{0%,to{box-shadow:0 0 #374151b3}50%{box-shadow:0 0 0 2px #37415100}}.animate-glow0s{animation:2s cubic-bezier(.4,0,.6,1) infinite pulse0s}@keyframes pulse1{0%,to{box-shadow:0 0 #f59e0be6}50%{box-shadow:0 0 0 6px #f59e0b4d}}.animate-glow1{animation:2s cubic-bezier(.4,0,.6,1) infinite pulse1}@keyframes pulse1s{0%,to{box-shadow:0 0 #f59e0be6}50%{box-shadow:0 0 0 2px #f59e0b4d}}.animate-glow1s{animation:2s cubic-bezier(.4,0,.6,1) infinite pulse1s}@keyframes pulse2{0%,to{box-shadow:0 0 #93c5fde6}50%{box-shadow:0 0 0 6px #93c5fd4d}}.animate-glow2{animation:2s cubic-bezier(.4,0,.6,1) infinite pulse2}@keyframes pulse2s{0%,to{box-shadow:0 0 #93c5fde6}50%{box-shadow:0 0 0 2px #93c5fd4d}}.animate-glow2s{animation:2s cubic-bezier(.4,0,.6,1) infinite pulse2s}@keyframes loadingGradient{0%,to{background-position:0%}50%{background-position:100%}}.animate-loading-gradient{animation:1s infinite loadingGradient}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:2s cubic-bezier(.4,0,.6,1) infinite pulse}.cursor-not-allowed{cursor:not-allowed}.cursor-pointer{cursor:pointer}.select-none{user-select:none}.resize{resize:both}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:.5rem}.gap-x-2{-moz-column-gap:.5rem;column-gap:.5rem}.gap-x-4{-moz-column-gap:1rem;column-gap:1rem}.gap-y-0{row-gap:0}.gap-y-1{row-gap:.25rem}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.5rem*var(--tw-space-x-reverse));margin-left:calc(.5rem*calc(1 - var(--tw-space-x-reverse)))}.space-x-\[2px\]>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2px*var(--tw-space-x-reverse));margin-left:calc(2px*calc(1 - var(--tw-space-x-reverse)))}.space-x-\[4px\]>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(4px*var(--tw-space-x-reverse));margin-left:calc(4px*calc(1 - var(--tw-space-x-reverse)))}.space-x-\[6px\]>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(6px*var(--tw-space-x-reverse));margin-left:calc(6px*calc(1 - var(--tw-space-x-reverse)))}.space-x-\[8px\]>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(8px*var(--tw-space-x-reverse));margin-left:calc(8px*calc(1 - var(--tw-space-x-reverse)))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.divide-y>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px*calc(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px*var(--tw-divide-y-reverse))}.divide-slate-300>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(203 213 225/var(--tw-divide-opacity,1))}.place-self-center{place-self:center}.overflow-auto{overflow:auto}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.overflow-y-hidden{overflow-y:hidden}.truncate{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.text-nowrap{text-wrap:nowrap}.break-all{word-break:break-all}.rounded{border-radius:.25rem}.rounded-\[10px\]{border-radius:10px}.rounded-\[2px\]{border-radius:2px}.rounded-\[6px\]{border-radius:6px}.rounded-\[8px\]{border-radius:8px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-b-\[6px\]{border-bottom-right-radius:6px;border-bottom-left-radius:6px}.rounded-b-\[8px\]{border-bottom-right-radius:8px;border-bottom-left-radius:8px}.rounded-t-\[6px\]{border-top-left-radius:6px;border-top-right-radius:6px}.rounded-bl-\[12px\]{border-bottom-left-radius:12px}.rounded-br-\[12px\]{border-bottom-right-radius:12px}.rounded-tl-sm{border-top-left-radius:.125rem}.rounded-tr-\[12px\]{border-top-right-radius:12px}.border{border-width:1px}.border-b,.border-b-\[1px\]{border-bottom-width:1px}.border-l-\[1px\]{border-left-width:1px}.border-r-\[1px\]{border-right-width:1px}.border-t-\[1px\]{border-top-width:1px}.border-solid{border-style:solid}.border-amber-400{--tw-border-opacity:1;border-color:rgb(251 191 36/var(--tw-border-opacity,1))}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254/var(--tw-border-opacity,1))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity,1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity,1))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity,1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249/var(--tw-border-opacity,1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity,1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225/var(--tw-border-opacity,1))}.border-b-gray-700{--tw-border-opacity:1;border-bottom-color:rgb(55 65 81/var(--tw-border-opacity,1))}.border-b-indigo-500{--tw-border-opacity:1;border-bottom-color:rgb(99 102 241/var(--tw-border-opacity,1))}.border-b-slate-300{--tw-border-opacity:1;border-bottom-color:rgb(203 213 225/var(--tw-border-opacity,1))}.border-l-gray-700{--tw-border-opacity:1;border-left-color:rgb(55 65 81/var(--tw-border-opacity,1))}.border-l-slate-300{--tw-border-opacity:1;border-left-color:rgb(203 213 225/var(--tw-border-opacity,1))}.border-r-gray-700{--tw-border-opacity:1;border-right-color:rgb(55 65 81/var(--tw-border-opacity,1))}.border-r-slate-300{--tw-border-opacity:1;border-right-color:rgb(203 213 225/var(--tw-border-opacity,1))}.border-t-gray-700{--tw-border-opacity:1;border-top-color:rgb(55 65 81/var(--tw-border-opacity,1))}.border-t-slate-300{--tw-border-opacity:1;border-top-color:rgb(203 213 225/var(--tw-border-opacity,1))}.bg-\[\#16a34a\]{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity,1))}.bg-\[\#f1f1f1\]{--tw-bg-opacity:1;background-color:rgb(241 241 241/var(--tw-bg-opacity,1))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity,1))}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77/var(--tw-bg-opacity,1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity,1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity,1))}.bg-cyan-100{--tw-bg-opacity:1;background-color:rgb(207 250 254/var(--tw-bg-opacity,1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity,1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity,1))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity,1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity,1))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity,1))}.bg-indigo-100{--tw-bg-opacity:1;background-color:rgb(224 231 255/var(--tw-bg-opacity,1))}.bg-lime-100{--tw-bg-opacity:1;background-color:rgb(236 252 203/var(--tw-bg-opacity,1))}.bg-orange-100{--tw-bg-opacity:1;background-color:rgb(255 237 213/var(--tw-bg-opacity,1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity,1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity,1))}.bg-slate-300{--tw-bg-opacity:1;background-color:rgb(203 213 225/var(--tw-bg-opacity,1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59/var(--tw-bg-opacity,1))}.bg-teal-100{--tw-bg-opacity:1;background-color:rgb(204 251 241/var(--tw-bg-opacity,1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/30{background-color:#ffffff4d}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity,1))}.bg-yellow-300{--tw-bg-opacity:1;background-color:rgb(253 224 71/var(--tw-bg-opacity,1))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-\[\#ff6b23\]{--tw-gradient-from:#ff6b23 var(--tw-gradient-from-position);--tw-gradient-to:#ff6b2300 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-amber-200{--tw-gradient-from:#fde68a var(--tw-gradient-from-position);--tw-gradient-to:#fde68a00 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-blue-50{--tw-gradient-from:#eff6ff var(--tw-gradient-from-position);--tw-gradient-to:#eff6ff00 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-gray-100{--tw-gradient-from:#f3f4f6 var(--tw-gradient-from-position);--tw-gradient-to:#f3f4f600 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-\[\#af3cb8\]{--tw-gradient-to:#af3cb800 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#af3cb8 var(--tw-gradient-via-position),var(--tw-gradient-to)}.via-amber-300{--tw-gradient-to:#fcd34d00 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#fcd34d var(--tw-gradient-via-position),var(--tw-gradient-to)}.via-blue-100{--tw-gradient-to:#dbeafe00 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#dbeafe var(--tw-gradient-via-position),var(--tw-gradient-to)}.via-gray-200{--tw-gradient-to:#e5e7eb00 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#e5e7eb var(--tw-gradient-via-position),var(--tw-gradient-to)}.to-\[\#53b6ff\]{--tw-gradient-to:#53b6ff var(--tw-gradient-to-position)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-300{--tw-gradient-to:#93c5fd var(--tw-gradient-to-position)}.to-gray-300{--tw-gradient-to:#d1d5db var(--tw-gradient-to-position)}.bg-\[length\:100\%_2px\]{background-size:100% 2px}.bg-\[length\:200\%_100\%\]{background-size:200% 100%}.bg-bottom{background-position:bottom}.bg-no-repeat{background-repeat:no-repeat}.fill-current{fill:currentColor}.stroke-\[\#c6c6c6\]{stroke:#c6c6c6}.stroke-1{stroke-width:1px}.p-0\.5{padding:.125rem}.p-1{padding:.25rem}.p-2{padding:.5rem}.p-3{padding:.75rem}.p-4{padding:1rem}.p-\[20px\]{padding:20px}.p-\[24px\]{padding:24px}.p-\[4px\]{padding:4px}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.px-\[16px\]{padding-left:16px;padding-right:16px}.px-\[1px\]{padding-left:1px;padding-right:1px}.px-\[20px\]{padding-left:20px;padding-right:20px}.px-\[2px\]{padding-left:2px;padding-right:2px}.px-\[4px\]{padding-left:4px;padding-right:4px}.px-\[6px\]{padding-left:6px;padding-right:6px}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-\[10px\]{padding-top:10px;padding-bottom:10px}.py-\[1px\]{padding-top:1px;padding-bottom:1px}.py-\[4px\]{padding-top:4px;padding-bottom:4px}.py-\[8px\]{padding-top:8px;padding-bottom:8px}.pb-2{padding-bottom:.5rem}.pb-3{padding-bottom:.75rem}.pb-5{padding-bottom:1.25rem}.pb-\[16px\]{padding-bottom:16px}.pb-\[4px\]{padding-bottom:4px}.pr-\[4px\]{padding-right:4px}.pt-3{padding-top:.75rem}.text-center{text-align:center}.align-middle{vertical-align:middle}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.font-sans{font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}.font-serif{font-family:ui-serif,Georgia,Cambria,Times New Roman,Times,serif}.text-\[11px\]{font-size:11px}.text-\[12px\]{font-size:12px}.text-\[13px\]{font-size:13px}.text-\[14px\]{font-size:14px}.text-\[15px\]{font-size:15px}.text-\[18px\]{font-size:18px}.text-\[21px\]{font-size:21px}.text-\[9px\]{font-size:9px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-\[16px\]{line-height:16px}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-.025em}.tracking-wider{letter-spacing:.05em}.text-\[\#9BA3AC\]{--tw-text-opacity:1;color:rgb(155 163 172/var(--tw-text-opacity,1))}.text-amber-900{--tw-text-opacity:1;color:rgb(120 53 15/var(--tw-text-opacity,1))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity,1))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity,1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235/var(--tw-text-opacity,1))}.text-blue-800{--tw-text-opacity:1;color:rgb(30 64 175/var(--tw-text-opacity,1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity,1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity,1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity,1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity,1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity,1))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity,1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity,1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74/var(--tw-text-opacity,1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity,1))}.text-red-800{--tw-text-opacity:1;color:rgb(153 27 27/var(--tw-text-opacity,1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity,1))}.text-slate-50{--tw-text-opacity:1;color:rgb(248 250 252/var(--tw-text-opacity,1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8/var(--tw-text-opacity,1))}.underline{text-decoration-line:underline}.underline-offset-1{text-underline-offset:1px}.underline-offset-2{text-underline-offset:2px}.subpixel-antialiased{-webkit-font-smoothing:auto;-moz-osx-font-smoothing:auto}.opacity-100{opacity:1}.opacity-50{opacity:.5}.opacity-80{opacity:.8}.shadow{--tw-shadow:0 1px 3px 0 #0000001a,0 1px 2px -1px #0000001a;--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px #0000001a,0 4px 6px -4px #0000001a;--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 #0000000d;--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px #0000001a,0 8px 10px -6px #0000001a;--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset)0 0 0 var(--tw-ring-offset-width)var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset)0 0 0 calc(3px + var(--tw-ring-offset-width))var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.blur{--tw-blur:blur(8px);filter:var(--tw-blur)var(--tw-brightness)var(--tw-contrast)var(--tw-grayscale)var(--tw-hue-rotate)var(--tw-invert)var(--tw-saturate)var(--tw-sepia)var(--tw-drop-shadow)}.blur-sm{--tw-blur:blur(4px);filter:var(--tw-blur)var(--tw-brightness)var(--tw-contrast)var(--tw-grayscale)var(--tw-hue-rotate)var(--tw-invert)var(--tw-saturate)var(--tw-sepia)var(--tw-drop-shadow)}.drop-shadow-2xl{--tw-drop-shadow:drop-shadow(0 25px 25px #00000026);filter:var(--tw-blur)var(--tw-brightness)var(--tw-contrast)var(--tw-grayscale)var(--tw-hue-rotate)var(--tw-invert)var(--tw-saturate)var(--tw-sepia)var(--tw-drop-shadow)}.invert{--tw-invert:invert(100%);filter:var(--tw-blur)var(--tw-brightness)var(--tw-contrast)var(--tw-grayscale)var(--tw-hue-rotate)var(--tw-invert)var(--tw-saturate)var(--tw-sepia)var(--tw-drop-shadow)}.filter{filter:var(--tw-blur)var(--tw-brightness)var(--tw-contrast)var(--tw-grayscale)var(--tw-hue-rotate)var(--tw-invert)var(--tw-saturate)var(--tw-sepia)var(--tw-drop-shadow)}.backdrop-blur{--tw-backdrop-blur:blur(8px);backdrop-filter:var(--tw-backdrop-blur)var(--tw-backdrop-brightness)var(--tw-backdrop-contrast)var(--tw-backdrop-grayscale)var(--tw-backdrop-hue-rotate)var(--tw-backdrop-invert)var(--tw-backdrop-opacity)var(--tw-backdrop-saturate)var(--tw-backdrop-sepia)}.backdrop-blur-3xl{--tw-backdrop-blur:blur(64px);backdrop-filter:var(--tw-backdrop-blur)var(--tw-backdrop-brightness)var(--tw-backdrop-contrast)var(--tw-backdrop-grayscale)var(--tw-backdrop-hue-rotate)var(--tw-backdrop-invert)var(--tw-backdrop-opacity)var(--tw-backdrop-saturate)var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-duration:.15s;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-property:all;transition-duration:.15s;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-shadow{transition-property:box-shadow;transition-duration:.15s;transition-timing-function:cubic-bezier(.4,0,.2,1)}.delay-75{transition-delay:75ms}.duration-200{transition-duration:.2s}.duration-300{transition-duration:.3s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}@supports (backdrop-filter:blur(1px)){.backdrop-blur{backdrop-filter:blur(10px)}}@-moz-document url-prefix(){.firefox\:backdrop-filter-none{backdrop-filter:none!important}.firefox\:bg-opacity-50{background-color:#ffffff80!important}.dark .firefox\:bg-opacity-50{background-color:#00000080!important}}.word-item{word-break:keep-all;display:inline-block;position:relative}.word-item:after{content:" ";white-space:pre;position:relative}.sidepanel-tabs .ant-tabs-content-holder{height:calc(100vh - 46px)!important;margin:0!important;padding:0!important;overflow:hidden!important}.sidepanel-tabs .ant-tabs-content{height:100%!important;margin:0!important;padding:0!important}.sidepanel-tabs .ant-tabs-tabpane{height:100%!important;margin:0!important;padding:0!important;overflow:hidden!important}.sidepanel-tabs{height:100vh!important;overflow:hidden!important}.sidepanel-tabs .ant-tabs-nav{flex-shrink:0!important;height:46px!important;margin:0!important}.sidepanel-tabs .ant-tabs-nav-wrap{background-color:#0000!important}.sidepanel-tabs .ant-tabs-tab{flex-shrink:0!important;min-width:auto!important;margin:2px!important;padding:4px 8px!important;font-size:12px!important;line-height:1.2!important}.sidepanel-tabs .ant-tabs-tab-btn{white-space:nowrap!important;align-items:center!important;gap:4px!important;font-size:12px!important;display:flex!important}.sidepanel-tabs .ant-tabs-tab .ant-tabs-tab-btn img{flex-shrink:0!important}.sidepanel-tabs .ant-tabs-nav-wrap::-webkit-scrollbar{display:none!important}.sidepanel-tabs .ant-tabs-nav-wrap{-ms-overflow-style:none!important;scrollbar-width:none!important}.sidepanel-tabs .ant-tabs-nav{overflow:auto hidden!important}.sidepanel-container{height:100vh!important;margin:0!important;padding:0!important;overflow:hidden!important}.visited\:text-blue-600:visited{color:#2563eb}.hover\:scale-110:hover{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.hover\:scale-150:hover{--tw-scale-x:1.5;--tw-scale-y:1.5;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.hover\:cursor-pointer:hover{cursor:pointer}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity,1))}.hover\:stroke-\[\#565656\]:hover{stroke:#565656}.hover\:font-bold:hover{font-weight:700}.hover\:text-\[\#7d848b\]:hover{--tw-text-opacity:1;color:rgb(125 132 139/var(--tw-text-opacity,1))}.hover\:text-blue-700:hover{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity,1))}.hover\:text-green-500:hover{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity,1))}.hover\:text-red-500:hover{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity,1))}.hover\:text-opacity-100:hover{--tw-text-opacity:1}.hover\:underline:hover{text-decoration-line:underline}.hover\:underline-offset-1:hover{text-underline-offset:1px}.hover\:shadow-md:hover{--tw-shadow:0 4px 6px -1px #0000001a,0 2px 4px -2px #0000001a;--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.dark\:border-gray-700:is(.dark *){--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity,1))}.dark\:border-b-gray-700:is(.dark *){--tw-border-opacity:1;border-bottom-color:rgb(55 65 81/var(--tw-border-opacity,1))}.dark\:border-l-gray-700:is(.dark *){--tw-border-opacity:1;border-left-color:rgb(55 65 81/var(--tw-border-opacity,1))}.dark\:border-r-gray-700:is(.dark *){--tw-border-opacity:1;border-right-color:rgb(55 65 81/var(--tw-border-opacity,1))}.dark\:border-t-gray-700:is(.dark *){--tw-border-opacity:1;border-top-color:rgb(55 65 81/var(--tw-border-opacity,1))}.dark\:bg-\[\#1e1e1e\]:is(.dark *){--tw-bg-opacity:1;background-color:rgb(30 30 30/var(--tw-bg-opacity,1))}.dark\:bg-amber-900\/50:is(.dark *){background-color:#78350f80}.dark\:bg-black\/30:is(.dark *){background-color:#0000004d}.dark\:bg-blue-900\/50:is(.dark *){background-color:#1e3a8a80}.dark\:bg-cyan-700:is(.dark *){--tw-bg-opacity:1;background-color:rgb(14 116 144/var(--tw-bg-opacity,1))}.dark\:bg-cyan-900\/50:is(.dark *){background-color:#164e6380}.dark\:bg-emerald-900\/50:is(.dark *){background-color:#064e3b80}.dark\:bg-gray-800:is(.dark *){--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity,1))}.dark\:bg-green-900\/50:is(.dark *){background-color:#14532d80}.dark\:bg-indigo-900\/50:is(.dark *){background-color:#312e8180}.dark\:bg-lime-900\/50:is(.dark *){background-color:#36531480}.dark\:bg-orange-900\/50:is(.dark *){background-color:#7c2d1280}.dark\:bg-red-900\/50:is(.dark *){background-color:#7f1d1d80}.dark\:bg-slate-800:is(.dark *){--tw-bg-opacity:1;background-color:rgb(30 41 59/var(--tw-bg-opacity,1))}.dark\:bg-teal-900\/50:is(.dark *){background-color:#134e4a80}.dark\:bg-yellow-900\/50:is(.dark *){background-color:#713f1280}.dark\:text-gray-400:is(.dark *){--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity,1))}.dark\:text-slate-400:is(.dark *){--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity,1))}.dark\:text-slate-50:is(.dark *){--tw-text-opacity:1;color:rgb(248 250 252/var(--tw-text-opacity,1))}.dark\:text-white:is(.dark *){--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.dark\:hover\:bg-gray-700:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity,1))}.dark\:hover\:text-red-400:hover:is(.dark *){--tw-text-opacity:1;color:rgb(248 113 113/var(--tw-text-opacity,1))}.\[\&_\.ant-conversations-list\]\:pl-0 .ant-conversations-list{padding-left:0}
+  #plasmo-shadow-container{
+    z-index: 1499 !important;
+  }
+  #plasmo-overlay-0{
+    width:1%;
+    height:10px;
+  }
+  :host,.highcharts-light,:host(:not([data-theme=dark])){--highcharts-color-0:#2caffe;--highcharts-color-1:#544fc5;--highcharts-color-2:#00e272;--highcharts-color-3:#fe6a35;--highcharts-color-4:#6b8abc;--highcharts-color-5:#d568fb;--highcharts-color-6:#2ee0ca;--highcharts-color-7:#fa4b42;--highcharts-color-8:#feb56a;--highcharts-color-9:#91e8e1;--highcharts-background-color:#e2e8f0;--highcharts-neutral-color-100:#000;--highcharts-neutral-color-80:#333;--highcharts-neutral-color-60:#666;--highcharts-neutral-color-40:#999;--highcharts-neutral-color-20:#ccc;--highcharts-neutral-color-10:#e6e6e6;--highcharts-neutral-color-5:#f2f2f2;--highcharts-neutral-color-3:#f7f7f7;--highcharts-highlight-color-100:#02f;--highcharts-highlight-color-80:#334eff;--highcharts-highlight-color-60:#667aff;--highcharts-highlight-color-20:#ccd3ff;--highcharts-highlight-color-10:#e6e9ff;--highcharts-positive-color:#06b535;--highcharts-negative-color:#f21313;--highcharts-annotation-color-0:#82aaff66;--highcharts-annotation-color-1:#8bbfd866;--highcharts-annotation-color-2:#96d8c066;--highcharts-annotation-color-3:#9ce5a166;--highcharts-annotation-color-4:#a2f18266;--highcharts-annotation-color-5:#a9ff6566}:host([data-theme=dark]),.highcharts-dark{--highcharts-color-1:#00e272;--highcharts-color-2:#efdf00;--highcharts-background-color:#1e1e1e;--highcharts-neutral-color-100:#fff;--highcharts-neutral-color-80:#d0d0d0;--highcharts-neutral-color-60:#a1a1a1;--highcharts-neutral-color-40:#727272;--highcharts-neutral-color-20:#434343;--highcharts-neutral-color-10:#2c2c2c;--highcharts-neutral-color-5:#202020;--highcharts-neutral-color-3:#1b1b1b;--highcharts-highlight-color-100:#2caffe;--highcharts-highlight-color-80:#2790cf;--highcharts-highlight-color-60:#2271a0;--highcharts-highlight-color-20:#193343;--highcharts-highlight-color-10:#16242b}.highcharts-container{text-align:left;z-index:0;-webkit-tap-highlight-color:#0000;user-select:none;touch-action:manipulation;outline:none;width:100%;height:100%;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;font-size:1rem;line-height:normal;position:relative;overflow:hidden}.highcharts-no-touch-action{touch-action:none}.highcharts-root{display:block}.highcharts-root text{stroke-width:0}.highcharts-strong{font-weight:700}.highcharts-emphasized{font-style:italic}.highcharts-anchor{cursor:pointer}.highcharts-background{fill:var(--highcharts-background-color)}.highcharts-plot-border,.highcharts-plot-background,.highcharts-label-box{fill:none}.highcharts-label text{fill:var(--highcharts-neutral-color-80);font-size:.8em}.highcharts-button-box{fill:inherit}.highcharts-tracker-line{stroke-linejoin:round;stroke:#c0c0c000;stroke-width:22px;fill:none}.highcharts-tracker-area{fill:#c0c0c000;stroke-width:0}.highcharts-title{fill:var(--highcharts-neutral-color-80);font-size:1.2em;font-weight:700}.highcharts-subtitle{fill:var(--highcharts-neutral-color-60);font-size:.8em}.highcharts-axis-line{fill:none;stroke:var(--highcharts-neutral-color-80)}.highcharts-yaxis .highcharts-axis-line{stroke-width:0}.highcharts-axis-title{fill:var(--highcharts-neutral-color-60);font-size:.8em}.highcharts-axis-labels{fill:var(--highcharts-neutral-color-80);cursor:default;font-size:.8em}.highcharts-grid-line{fill:none;stroke:var(--highcharts-neutral-color-10)}.highcharts-xaxis-grid .highcharts-grid-line{stroke-width:0}.highcharts-tick{stroke:var(--highcharts-neutral-color-80)}.highcharts-yaxis .highcharts-tick{stroke-width:0}.highcharts-minor-grid-line{stroke:var(--highcharts-neutral-color-5)}.highcharts-crosshair-thin{stroke-width:1px;stroke:var(--highcharts-neutral-color-20)}.highcharts-crosshair-category{stroke:var(--highcharts-highlight-color-20);stroke-opacity:.25}.highcharts-credits{cursor:pointer;fill:var(--highcharts-neutral-color-40);font-size:.6em;transition:fill .25s,font-size .25s}.highcharts-credits:hover{fill:var(--highcharts-neutral-color-100);font-size:.7em}.highcharts-tooltip{cursor:default;pointer-events:none;white-space:nowrap;transition:stroke .15s}.highcharts-tooltip .highcharts-tracker{fill:none;stroke:none}.highcharts-tooltip text,.highcharts-tooltip foreignObject span{fill:var(--highcharts-neutral-color-80);font-size:.8em}.highcharts-tooltip .highcharts-header{font-size:.8em}.highcharts-tooltip-box{stroke-width:0;fill:var(--highcharts-background-color)}.highcharts-tooltip-box .highcharts-label-box{fill:var(--highcharts-background-color)}div.highcharts-tooltip{filter:none;font-size:.8em}.highcharts-selection-marker{fill:var(--highcharts-highlight-color-80);fill-opacity:.25}.highcharts-graph{fill:none;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round}.highcharts-empty-series{stroke-width:1px;fill:none;stroke:var(--highcharts-neutral-color-20)}.highcharts-state-hover .highcharts-graph{stroke-width:3px}.highcharts-point-inactive,.highcharts-series-inactive{opacity:.2;transition:opacity 50ms}.highcharts-state-hover path{transition:stroke-width 50ms}.highcharts-state-normal path{transition:stroke-width .25s}g.highcharts-series,.highcharts-point,.highcharts-markers,.highcharts-data-labels{transition:opacity .25s}.highcharts-legend-series-active g.highcharts-series:not(.highcharts-series-hover),.highcharts-legend-point-active .highcharts-point:not(.highcharts-point-hover,.highcharts-point-select),.highcharts-legend-series-active .highcharts-markers:not(.highcharts-series-hover),.highcharts-legend-series-active .highcharts-data-labels:not(.highcharts-series-hover){opacity:.2}.highcharts-color-0{fill:var(--highcharts-color-0);stroke:var(--highcharts-color-0)}.highcharts-color-1{fill:var(--highcharts-color-1);stroke:var(--highcharts-color-1)}.highcharts-color-2{fill:var(--highcharts-color-2);stroke:var(--highcharts-color-2)}.highcharts-color-3{fill:var(--highcharts-color-3);stroke:var(--highcharts-color-3)}.highcharts-color-4{fill:var(--highcharts-color-4);stroke:var(--highcharts-color-4)}.highcharts-color-5{fill:var(--highcharts-color-5);stroke:var(--highcharts-color-5)}.highcharts-color-6{fill:var(--highcharts-color-6);stroke:var(--highcharts-color-6)}.highcharts-color-7{fill:var(--highcharts-color-7);stroke:var(--highcharts-color-7)}.highcharts-color-8{fill:var(--highcharts-color-8);stroke:var(--highcharts-color-8)}.highcharts-color-9{fill:var(--highcharts-color-9);stroke:var(--highcharts-color-9)}.highcharts-area{fill-opacity:.75;stroke-width:0}.highcharts-markers{stroke-width:1px;stroke:var(--highcharts-background-color)}.highcharts-a11y-markers-hidden .highcharts-point:not(.highcharts-point-hover,.highcharts-a11y-marker-visible),.highcharts-a11y-marker-hidden{opacity:0}.highcharts-point{stroke-width:1px}.highcharts-dense-data .highcharts-point{stroke-width:0}.highcharts-data-label text,.highcharts-data-label span,text.highcharts-data-label{font-size:.7em;font-weight:700}.highcharts-data-label-box{fill:none;stroke-width:0}.highcharts-data-label text,text.highcharts-data-label{fill:var(--highcharts-neutral-color-80)}.highcharts-data-label-connector{fill:none}.highcharts-data-label-hidden{pointer-events:none}.highcharts-halo{fill-opacity:.25;stroke-width:0}.highcharts-series-label text{fill:inherit;font-weight:700}.highcharts-series:not(.highcharts-pie-series) .highcharts-point-select,.highcharts-markers .highcharts-point-select{fill:var(--highcharts-neutral-color-20);stroke:var(--highcharts-neutral-color-100)}.highcharts-column-series path.highcharts-point,.highcharts-bar-series path.highcharts-point{stroke:var(--highcharts-background-color)}.highcharts-column-series .highcharts-point,.highcharts-bar-series .highcharts-point{transition:fill-opacity .25s}.highcharts-column-series .highcharts-point-hover,.highcharts-bar-series .highcharts-point-hover{fill-opacity:.75;transition:fill-opacity 50ms}.highcharts-pie-series .highcharts-point{stroke-linejoin:round;stroke:var(--highcharts-background-color)}.highcharts-pie-series .highcharts-point-hover{fill-opacity:.75;transition:fill-opacity 50ms}.highcharts-funnel-series .highcharts-point{stroke-linejoin:round;stroke:var(--highcharts-background-color)}.highcharts-funnel-series .highcharts-point-hover{fill-opacity:.75;transition:fill-opacity 50ms}.highcharts-funnel-series .highcharts-point-select{fill:inherit;stroke:inherit}.highcharts-pyramid-series .highcharts-point{stroke-linejoin:round;stroke:var(--highcharts-background-color)}.highcharts-pyramid-series .highcharts-point-hover{fill-opacity:.75;transition:fill-opacity 50ms}.highcharts-pyramid-series .highcharts-point-select{fill:inherit;stroke:inherit}.highcharts-solidgauge-series .highcharts-point{stroke-width:0}.highcharts-treemap-series .highcharts-point{stroke-width:1px;stroke:var(--highcharts-neutral-color-10);transition:stroke .25s,fill .25s,fill-opacity .25s}.highcharts-treemap-series .highcharts-point-hover{stroke:var(--highcharts-neutral-color-40);transition:stroke 25ms,fill 25ms,fill-opacity 25ms}.highcharts-treemap-series .highcharts-above-level{display:none}.highcharts-treemap-series .highcharts-internal-node{fill:none}.highcharts-treemap-series .highcharts-internal-node-interactive{fill-opacity:.15;cursor:pointer}.highcharts-treemap-series .highcharts-internal-node-interactive:hover{fill-opacity:.75}.highcharts-vector-series .highcharts-point,.highcharts-windbarb-series .highcharts-point{fill:none;stroke-width:2px}.highcharts-lollipop-stem{stroke:var(--highcharts-neutral-color-100)}.highcharts-focus-border{fill:none;stroke-width:2px}.highcharts-legend-item-hidden .highcharts-focus-border{fill:none!important}.highcharts-legend-box{fill:none;stroke-width:0}.highcharts-legend-item>text,.highcharts-legend-item span{fill:var(--highcharts-neutral-color-80);cursor:pointer;stroke-width:0;font-size:.8em}.highcharts-legend-item:hover text{fill:var(--highcharts-neutral-color-100)}.highcharts-legend-item-hidden *{text-decoration:line-through;transition:fill .25s;fill:var(--highcharts-neutral-color-60)!important;stroke:var(--highcharts-neutral-color-60)!important}.highcharts-legend-nav-active{fill:var(--highcharts-highlight-color-100);cursor:pointer}.highcharts-legend-nav-inactive{fill:var(--highcharts-neutral-color-20)}circle.highcharts-legend-nav-active,circle.highcharts-legend-nav-inactive{fill:#c0c0c000}.highcharts-legend-title-box{fill:none;stroke-width:0}.highcharts-bubble-legend-symbol{stroke-width:2px;fill-opacity:.5}.highcharts-bubble-legend-connectors{stroke-width:1px}.highcharts-bubble-legend-labels{fill:var(--highcharts-neutral-color-80);font-size:.7em}.highcharts-loading{background-color:var(--highcharts-background-color);opacity:.5;text-align:center;z-index:10;transition:opacity .25s;position:absolute}.highcharts-loading-hidden{opacity:0;transition:opacity .25s,height .25s step-end;overflow:hidden;height:0!important}.highcharts-loading-inner{font-weight:700;position:relative;top:45%}.highcharts-plot-band,.highcharts-pane{fill:var(--highcharts-neutral-color-100);fill-opacity:.05}.highcharts-plot-line{fill:none;stroke:var(--highcharts-neutral-color-40);stroke-width:1px}.highcharts-plot-line-label{font-size:.8em}.highcharts-boxplot-box{fill:var(--highcharts-background-color)}.highcharts-boxplot-median{stroke-width:2px}.highcharts-bubble-series .highcharts-point{fill-opacity:.5}.highcharts-errorbar-series .highcharts-point{stroke:var(--highcharts-neutral-color-100)}.highcharts-gauge-series .highcharts-data-label-box{stroke:var(--highcharts-neutral-color-20);stroke-width:1px}.highcharts-gauge-series .highcharts-dial{fill:var(--highcharts-neutral-color-100);stroke-width:0}.highcharts-polygon-series .highcharts-graph{fill:inherit;stroke-width:0}.highcharts-waterfall-series .highcharts-graph{stroke:var(--highcharts-neutral-color-80);stroke-dasharray:1 3}.highcharts-sankey-series .highcharts-point{stroke-width:0}.highcharts-sankey-series .highcharts-link{fill-opacity:.5;transition:fill .25s,fill-opacity .25s}.highcharts-sankey-series .highcharts-point-hover.highcharts-link{fill-opacity:1;transition:fill 50ms,fill-opacity 50ms}.highcharts-venn-series .highcharts-point{fill-opacity:.75;stroke:var(--highcharts-neutral-color-20);transition:stroke .25s,fill-opacity .25s}.highcharts-venn-series .highcharts-point-hover{fill-opacity:1;stroke:var(--highcharts-neutral-color-20)}.highcharts-timeline-series .highcharts-graph{stroke:var(--highcharts-neutral-color-20)}.highcharts-navigator-mask-outside{fill-opacity:0}.highcharts-navigator-mask-inside{fill:var(--highcharts-highlight-color-60);fill-opacity:.25;cursor:ew-resize}.highcharts-navigator-outline{stroke:var(--highcharts-neutral-color-40);fill:none}.highcharts-navigator-handle{stroke:var(--highcharts-neutral-color-40);fill:var(--highcharts-neutral-color-5);cursor:ew-resize}.highcharts-navigator-series{fill:var(--highcharts-highlight-color-80);stroke:var(--highcharts-highlight-color-80)}.highcharts-navigator-series .highcharts-graph{stroke-width:1px}.highcharts-navigator-series .highcharts-area{fill-opacity:.05}.highcharts-navigator-xaxis .highcharts-axis-line{stroke-width:0}.highcharts-navigator-xaxis .highcharts-grid-line{stroke-width:1px;stroke:var(--highcharts-neutral-color-10)}.highcharts-navigator-xaxis.highcharts-axis-labels{fill:var(--highcharts-neutral-color-100);opacity:.6;font-size:.7em}.highcharts-navigator-yaxis .highcharts-grid-line{stroke-width:0}.highcharts-scrollbar-thumb{fill:var(--highcharts-neutral-color-20);stroke:var(--highcharts-neutral-color-20);stroke-width:0}.highcharts-scrollbar-button{fill:var(--highcharts-neutral-color-10);stroke:var(--highcharts-neutral-color-20);stroke-width:1px}.highcharts-scrollbar-arrow{fill:var(--highcharts-neutral-color-60)}.highcharts-scrollbar-rifles{stroke:none;stroke-width:1px}.highcharts-scrollbar-track{fill:#fff0;stroke:var(--highcharts-neutral-color-20);stroke-width:1px}.highcharts-button{fill:var(--highcharts-neutral-color-3);stroke:var(--highcharts-neutral-color-20);cursor:default;stroke-width:1px;transition:fill .25s}.highcharts-button text{fill:var(--highcharts-neutral-color-80);font-size:.8em}.highcharts-button-hover{fill:var(--highcharts-neutral-color-10);stroke:var(--highcharts-neutral-color-20);transition:fill}.highcharts-button-hover text{fill:var(--highcharts-neutral-color-80)}.highcharts-button-pressed{fill:var(--highcharts-highlight-color-10);stroke:var(--highcharts-neutral-color-20);font-weight:700}.highcharts-button-pressed text{fill:var(--highcharts-neutral-color-80);font-weight:700}.highcharts-button-disabled text{fill:var(--highcharts-neutral-color-80)}.highcharts-range-selector-buttons .highcharts-button{stroke-width:0}.highcharts-range-label rect{fill:none}.highcharts-range-label text{fill:var(--highcharts-neutral-color-60)}.highcharts-range-input rect{fill:none}.highcharts-range-input text{fill:var(--highcharts-neutral-color-80);font-size:.8em}.highcharts-range-input{stroke-width:1px;stroke:var(--highcharts-neutral-color-20)}input.highcharts-range-selector{text-align:center;border:0;width:1px;height:1px;padding:0;position:absolute;left:-9em}.highcharts-crosshair-label text{fill:var(--highcharts-background-color);font-size:1.7em}.highcharts-crosshair-label .highcharts-label-box{fill:inherit}.highcharts-candlestick-series .highcharts-point{stroke:var(--highcharts-neutral-color-100);stroke-width:1px}.highcharts-candlestick-series .highcharts-point-up{fill:var(--highcharts-background-color)}.highcharts-renko-series .highcharts-point-down,.highcharts-hollowcandlestick-series .highcharts-point-down{fill:var(--highcharts-negative-color);stroke:var(--highcharts-negative-color)}.highcharts-renko-series .highcharts-point-up,.highcharts-hollowcandlestick-series .highcharts-point-down-bearish-up{fill:var(--highcharts-positive-color);stroke:var(--highcharts-positive-color)}.highcharts-hollowcandlestick-series .highcharts-point-up{fill:#0000;stroke:var(--highcharts-positive-color)}.highcharts-ohlc-series .highcharts-point-hover{stroke-width:3px}.highcharts-flags-series .highcharts-point .highcharts-label-box{stroke:var(--highcharts-neutral-color-40);fill:var(--highcharts-background-color);transition:fill .25s}.highcharts-flags-series .highcharts-point-hover .highcharts-label-box{stroke:var(--highcharts-neutral-color-100);fill:var(--highcharts-highlight-color-20)}.highcharts-flags-series .highcharts-point text{fill:var(--highcharts-neutral-color-100);font-size:.9em;font-weight:700}.highcharts-map-series .highcharts-point{stroke:var(--highcharts-neutral-color-20);stroke-width:inherit;transition:fill .5s,fill-opacity .5s,stroke-width .25s}.highcharts-map-series .highcharts-point-hover{fill-opacity:.5;transition:fill,fill-opacity}.highcharts-mapline-series .highcharts-point{fill:none}.highcharts-heatmap-series .highcharts-point{stroke-width:0}.highcharts-map-navigation{text-align:center;font-size:1.3em;font-weight:700}.highcharts-map-navigation.highcharts-button{fill:var(--highcharts-background-color);stroke:var(--highcharts-neutral-color-10)}.highcharts-map-navigation.highcharts-button:hover{fill:var(--highcharts-neutral-color-10)}.highcharts-map-navigation.highcharts-button .highcharts-button-symbol{stroke-width:2px}.highcharts-mapview-inset-border{stroke:var(--highcharts-neutral-color-20);stroke-width:1px;fill:none}.highcharts-coloraxis{stroke-width:0}.highcharts-coloraxis-marker{fill:var(--highcharts-neutral-color-40)}.highcharts-null-point{fill:var(--highcharts-neutral-color-3)}.highcharts-3d-frame{fill:#0000}.highcharts-contextbutton{fill:var(--highcharts-background-color);stroke:none;stroke-linecap:round}.highcharts-contextbutton:hover{fill:var(--highcharts-neutral-color-10);stroke:var(--highcharts-neutral-color-10)}.highcharts-button-symbol{stroke:var(--highcharts-neutral-color-60);stroke-width:3px}.highcharts-menu{background:var(--highcharts-background-color);border:none;border-radius:3px;padding:.5em;box-shadow:3px 3px 10px #888}.highcharts-menu-item{color:var(--highcharts-neutral-color-80);cursor:pointer;background:0 0;border-radius:3px;padding:.5em;font-size:.8em;list-style-type:none;transition:background .25s,color .25s}.highcharts-menu-item:hover{background:var(--highcharts-neutral-color-5)}.highcharts-breadcrumbs-button{fill:none;stroke-width:0;cursor:pointer}.highcharts-breadcrumbs-separator{fill:var(--highcharts-neutral-color-60)}.highcharts-drilldown-point{cursor:pointer}.highcharts-drilldown-data-label text,text.highcharts-drilldown-data-label,.highcharts-drilldown-axis-label{cursor:pointer;fill:var(--highcharts-highlight-color-100);font-weight:700;text-decoration:underline}.highcharts-no-data text{fill:var(--highcharts-neutral-color-60);font-size:.8em;font-weight:700}.highcharts-axis-resizer{cursor:ns-resize;stroke:var(--highcharts-neutral-color-100);stroke-width:2px}.highcharts-bullet-target{stroke-width:0}.highcharts-lineargauge-target,.highcharts-lineargauge-target-line{stroke-width:1px;stroke:var(--highcharts-neutral-color-80)}.highcharts-fibonacci-background-0,.highcharts-pitchfork-inner-background,.highcharts-measure-background{fill:var(--highcharts-annotation-color-0)}.highcharts-fibonacci-background-1{fill:var(--highcharts-annotation-color-1)}.highcharts-fibonacci-background-2{fill:var(--highcharts-annotation-color-2)}.highcharts-fibonacci-background-3,.highcharts-pitchfork-outer-background{fill:var(--highcharts-annotation-color-3)}.highcharts-fibonacci-background-4{fill:var(--highcharts-annotation-color-4)}.highcharts-fibonacci-background-5{fill:var(--highcharts-annotation-color-5)}.highcharts-fibonacci-line{stroke:var(--highcharts-neutral-color-40)}.highcharts-crooked-lines,.highcharts-tunnel-lines,.highcharts-infinity-lines,.highcharts-timecycles-lines,.highcharts-fibonacci-timezones-lines,.highcharts-pitchfork-lines,.highcharts-vertical-line,.highcharts-measure-crosshair-x,.highcharts-measure-crosshair-y{stroke:var(--highcharts-neutral-color-100);stroke-opacity:.75;fill:none}.highcharts-measure-crosshair-x,.highcharts-measure-crosshair-y{stroke-dasharray:1 3}.highcharts-tunnel-background{fill:var(--highcharts-color-0)}.highcharts-annotation-shapes{cursor:move}.highcharts-basic-shape{fill:var(--highcharts-neutral-color-100);stroke:var(--highcharts-neutral-color-100);opacity:.74}.highcharts-annotation-label-box{stroke-width:1px;stroke:var(--highcharts-neutral-color-100);fill:var(--highcharts-neutral-color-100);fill-opacity:.75}.highcharts-annotation-label text{fill:var(--highcharts-neutral-color-10);font-size:.8em}.highcharts-a11y-proxy-element{cursor:pointer;opacity:.001;z-index:999;background-color:#0000;border-width:0;outline:none;margin:0;padding:0;display:block;position:absolute;overflow:hidden}.highcharts-a11y-proxy-group li{list-style:none}.highcharts-visually-hidden{white-space:nowrap;clip:rect(1px,1px,1px,1px);opacity:.01;width:1px;height:1px;margin-top:-3px;position:absolute;overflow:hidden}.highcharts-a11y-invisible{visibility:hidden}.highcharts-a11y-proxy-container,.highcharts-a11y-proxy-container-before,.highcharts-a11y-proxy-container-after{white-space:nowrap;position:absolute}g.highcharts-series,.highcharts-markers,.highcharts-point{outline:none}.highcharts-treegrid-node-collapsed,.highcharts-treegrid-node-expanded{cursor:pointer}.highcharts-point-connecting-path{fill:none}.highcharts-grid-axis .highcharts-tick,.highcharts-grid-axis .highcharts-axis-line{stroke:var(--highcharts-neutral-color-20);stroke-width:1px}.highcharts-gantt-series .highcharts-partfill-overlay{fill:#0000004d;stroke:#0000004d}.react-grid-layout{transition:height .2s;position:relative}.react-grid-item{transition:left .2s,top .2s,width .2s,height .2s}.react-grid-item img{pointer-events:none;user-select:none}.react-grid-item.cssTransforms{transition-property:transform,width,height}.react-grid-item.resizing{z-index:1;will-change:width,height;transition:none}.react-grid-item.react-draggable-dragging{z-index:3;will-change:transform;transition:none}.react-grid-item.dropping{visibility:hidden}.react-grid-item.react-grid-placeholder{opacity:.2;z-index:2;user-select:none;-o-user-select:none;background:red;transition-duration:.1s}.react-grid-item.react-grid-placeholder.placeholder-resizing{transition:none}.react-grid-item>.react-resizable-handle{width:20px;height:20px;position:absolute}.react-grid-item>.react-resizable-handle:after{content:"";border-bottom:2px solid #0006;border-right:2px solid #0006;width:5px;height:5px;position:absolute;bottom:3px;right:3px}.react-resizable-hide>.react-resizable-handle{display:none}.react-grid-item>.react-resizable-handle.react-resizable-handle-sw{cursor:sw-resize;bottom:0;left:0;transform:rotate(90deg)}.react-grid-item>.react-resizable-handle.react-resizable-handle-se{cursor:se-resize;bottom:0;right:0}.react-grid-item>.react-resizable-handle.react-resizable-handle-nw{cursor:nw-resize;top:0;left:0;transform:rotate(180deg)}.react-grid-item>.react-resizable-handle.react-resizable-handle-ne{cursor:ne-resize;top:0;right:0;transform:rotate(270deg)}.react-grid-item>.react-resizable-handle.react-resizable-handle-w,.react-grid-item>.react-resizable-handle.react-resizable-handle-e{cursor:ew-resize;margin-top:-10px;top:50%}.react-grid-item>.react-resizable-handle.react-resizable-handle-w{left:0;transform:rotate(135deg)}.react-grid-item>.react-resizable-handle.react-resizable-handle-e{right:0;transform:rotate(315deg)}.react-grid-item>.react-resizable-handle.react-resizable-handle-n,.react-grid-item>.react-resizable-handle.react-resizable-handle-s{cursor:ns-resize;margin-left:-10px;left:50%}.react-grid-item>.react-resizable-handle.react-resizable-handle-n{top:0;transform:rotate(225deg)}.react-grid-item>.react-resizable-handle.react-resizable-handle-s{bottom:0;transform:rotate(45deg)}.react-resizable{position:relative}.react-resizable-handle{box-sizing:border-box;background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2IDYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZmYwMCIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iNnB4Ij48ZyBvcGFjaXR5PSIwLjMwMiI+PHBhdGggZD0iTSA2IDYgTCAwIDYgTCAwIDQuMiBMIDQgNC4yIEwgNC4yIDQuMiBMIDQuMiAwIEwgNiAwIEwgNiA2IEwgNiA2IFoiIGZpbGw9IiMwMDAwMDAiLz48L2c+PC9zdmc+);background-position:100% 100%;background-repeat:no-repeat;background-origin:content-box;width:20px;height:20px;padding:0 3px 3px 0;position:absolute}.react-resizable-handle-sw{cursor:sw-resize;bottom:0;left:0;transform:rotate(90deg)}.react-resizable-handle-se{cursor:se-resize;bottom:0;right:0}.react-resizable-handle-nw{cursor:nw-resize;top:0;left:0;transform:rotate(180deg)}.react-resizable-handle-ne{cursor:ne-resize;top:0;right:0;transform:rotate(270deg)}.react-resizable-handle-w,.react-resizable-handle-e{cursor:ew-resize;margin-top:-10px;top:50%}.react-resizable-handle-w{left:0;transform:rotate(135deg)}.react-resizable-handle-e{right:0;transform:rotate(315deg)}.react-resizable-handle-n,.react-resizable-handle-s{cursor:ns-resize;margin-left:-10px;left:50%}.react-resizable-handle-n{top:0;transform:rotate(225deg)}.react-resizable-handle-s{bottom:0;transform:rotate(45deg)}:root{--toastify-color-light:#fff;--toastify-color-dark:#121212;--toastify-color-info:#3498db;--toastify-color-success:#07bc0c;--toastify-color-warning:#f1c40f;--toastify-color-error:#e74c3c;--toastify-color-transparent:#ffffffb3;--toastify-icon-color-info:var(--toastify-color-info);--toastify-icon-color-success:var(--toastify-color-success);--toastify-icon-color-warning:var(--toastify-color-warning);--toastify-icon-color-error:var(--toastify-color-error);--toastify-toast-width:320px;--toastify-toast-offset:16px;--toastify-toast-top:max(var(--toastify-toast-offset),env(safe-area-inset-top));--toastify-toast-right:max(var(--toastify-toast-offset),env(safe-area-inset-right));--toastify-toast-left:max(var(--toastify-toast-offset),env(safe-area-inset-left));--toastify-toast-bottom:max(var(--toastify-toast-offset),env(safe-area-inset-bottom));--toastify-toast-background:#fff;--toastify-toast-min-height:64px;--toastify-toast-max-height:800px;--toastify-toast-bd-radius:6px;--toastify-font-family:sans-serif;--toastify-z-index:9999;--toastify-text-color-light:#757575;--toastify-text-color-dark:#fff;--toastify-text-color-info:#fff;--toastify-text-color-success:#fff;--toastify-text-color-warning:#fff;--toastify-text-color-error:#fff;--toastify-spinner-color:#616161;--toastify-spinner-color-empty-area:#e0e0e0;--toastify-color-progress-light:linear-gradient(to right,#4cd964,#5ac8fa,#007aff,#34aadc,#5856d6,#ff2d55);--toastify-color-progress-dark:#bb86fc;--toastify-color-progress-info:var(--toastify-color-info);--toastify-color-progress-success:var(--toastify-color-success);--toastify-color-progress-warning:var(--toastify-color-warning);--toastify-color-progress-error:var(--toastify-color-error);--toastify-color-progress-bgo:.2}.Toastify__toast-container{z-index:var(--toastify-z-index);-webkit-transform:translate3d(0,0,var(--toastify-z-index));width:var(--toastify-toast-width);box-sizing:border-box;color:#fff;padding:4px;position:fixed}.Toastify__toast-container--top-left{top:var(--toastify-toast-top);left:var(--toastify-toast-left)}.Toastify__toast-container--top-center{top:var(--toastify-toast-top);left:50%;transform:translate(-50%)}.Toastify__toast-container--top-right{top:var(--toastify-toast-top);right:var(--toastify-toast-right)}.Toastify__toast-container--bottom-left{bottom:var(--toastify-toast-bottom);left:var(--toastify-toast-left)}.Toastify__toast-container--bottom-center{bottom:var(--toastify-toast-bottom);left:50%;transform:translate(-50%)}.Toastify__toast-container--bottom-right{bottom:var(--toastify-toast-bottom);right:var(--toastify-toast-right)}@media only screen and (width<=480px){.Toastify__toast-container{width:100vw;left:env(safe-area-inset-left);margin:0;padding:0}.Toastify__toast-container--top-left,.Toastify__toast-container--top-center,.Toastify__toast-container--top-right{top:env(safe-area-inset-top);transform:translate(0)}.Toastify__toast-container--bottom-left,.Toastify__toast-container--bottom-center,.Toastify__toast-container--bottom-right{bottom:env(safe-area-inset-bottom);transform:translate(0)}.Toastify__toast-container--rtl{right:env(safe-area-inset-right);left:initial}}.Toastify__toast{--y:0;-ms-touch-action:none;touch-action:none;min-height:var(--toastify-toast-min-height);box-sizing:border-box;border-radius:var(--toastify-toast-bd-radius);max-height:var(--toastify-toast-max-height);font-family:var(--toastify-font-family);cursor:default;z-index:0;direction:ltr;justify-content:space-between;margin-bottom:1rem;padding:8px;display:flex;position:relative;overflow:hidden;box-shadow:0 4px 12px #0000001a}.Toastify__toast--stacked{width:100%;transform:translate3d(0,var(--y),0)scale(var(--s));transition:transform .3s;position:absolute}.Toastify__toast--stacked[data-collapsed] .Toastify__toast-body,.Toastify__toast--stacked[data-collapsed] .Toastify__close-button{transition:opacity .1s}.Toastify__toast--stacked[data-collapsed=false]{overflow:visible}.Toastify__toast--stacked[data-collapsed=true]:not(:last-child)>*{opacity:0}.Toastify__toast--stacked:after{content:"";height:calc(var(--g)*1px);position:absolute;bottom:100%;left:0;right:0}.Toastify__toast--stacked[data-pos=top]{top:0}.Toastify__toast--stacked[data-pos=bot]{bottom:0}.Toastify__toast--stacked[data-pos=bot].Toastify__toast--stacked:before{transform-origin:top}.Toastify__toast--stacked[data-pos=top].Toastify__toast--stacked:before{transform-origin:bottom}.Toastify__toast--stacked:before{content:"";z-index:-1;height:100%;position:absolute;bottom:0;left:0;right:0;transform:scaleY(3)}.Toastify__toast--rtl{direction:rtl}.Toastify__toast--close-on-click{cursor:pointer}.Toastify__toast-body{flex:auto;align-items:center;margin:auto 0;padding:6px;display:flex}.Toastify__toast-body>div:last-child{word-break:break-word;flex:1}.Toastify__toast-icon{-webkit-margin-end:10px;flex-shrink:0;width:20px;margin-inline-end:10px;display:flex}.Toastify--animate{animation-duration:.5s;animation-fill-mode:both}.Toastify--animate-icon{animation-duration:.3s;animation-fill-mode:both}@media only screen and (width<=480px){.Toastify__toast{border-radius:0;margin-bottom:0}}.Toastify__toast-theme--dark{background:var(--toastify-color-dark);color:var(--toastify-text-color-dark)}.Toastify__toast-theme--light,.Toastify__toast-theme--colored.Toastify__toast--default{background:var(--toastify-color-light);color:var(--toastify-text-color-light)}.Toastify__toast-theme--colored.Toastify__toast--info{color:var(--toastify-text-color-info);background:var(--toastify-color-info)}.Toastify__toast-theme--colored.Toastify__toast--success{color:var(--toastify-text-color-success);background:var(--toastify-color-success)}.Toastify__toast-theme--colored.Toastify__toast--warning{color:var(--toastify-text-color-warning);background:var(--toastify-color-warning)}.Toastify__toast-theme--colored.Toastify__toast--error{color:var(--toastify-text-color-error);background:var(--toastify-color-error)}.Toastify__progress-bar-theme--light{background:var(--toastify-color-progress-light)}.Toastify__progress-bar-theme--dark{background:var(--toastify-color-progress-dark)}.Toastify__progress-bar--info{background:var(--toastify-color-progress-info)}.Toastify__progress-bar--success{background:var(--toastify-color-progress-success)}.Toastify__progress-bar--warning{background:var(--toastify-color-progress-warning)}.Toastify__progress-bar--error{background:var(--toastify-color-progress-error)}.Toastify__progress-bar-theme--colored.Toastify__progress-bar--info,.Toastify__progress-bar-theme--colored.Toastify__progress-bar--success,.Toastify__progress-bar-theme--colored.Toastify__progress-bar--warning,.Toastify__progress-bar-theme--colored.Toastify__progress-bar--error{background:var(--toastify-color-transparent)}.Toastify__close-button{color:#fff;cursor:pointer;opacity:.7;z-index:1;background:0 0;border:none;outline:none;align-self:flex-start;padding:0;transition:all .3s}.Toastify__close-button--light{color:#000;opacity:.3}.Toastify__close-button>svg{fill:currentColor;width:14px;height:16px}.Toastify__close-button:hover,.Toastify__close-button:focus{opacity:1}@keyframes Toastify__trackProgress{0%{transform:scaleX(1)}to{transform:scaleX(0)}}.Toastify__progress-bar{width:100%;height:100%;z-index:var(--toastify-z-index);opacity:.7;transform-origin:0;border-bottom-left-radius:var(--toastify-toast-bd-radius);position:absolute;bottom:0;left:0}.Toastify__progress-bar--animated{animation:linear forwards Toastify__trackProgress}.Toastify__progress-bar--controlled{transition:transform .2s}.Toastify__progress-bar--rtl{right:0;left:initial;transform-origin:100%;border-bottom-left-radius:initial;border-bottom-right-radius:var(--toastify-toast-bd-radius)}.Toastify__progress-bar--wrp{border-bottom-left-radius:var(--toastify-toast-bd-radius);width:100%;height:5px;position:absolute;bottom:0;left:0}.Toastify__progress-bar--wrp[data-hidden=true]{opacity:0}.Toastify__progress-bar--bg{opacity:var(--toastify-color-progress-bgo);width:100%;height:100%}.Toastify__spinner{box-sizing:border-box;border:2px solid;border-color:var(--toastify-spinner-color-empty-area);border-right-color:var(--toastify-spinner-color);border-radius:100%;width:20px;height:20px;animation:.65s linear infinite Toastify__spin}@keyframes Toastify__bounceInRight{0%,60%,75%,90%,to{animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate(3000px)}60%{opacity:1;transform:translate(-25px)}75%{transform:translate(10px)}90%{transform:translate(-5px)}to{transform:none}}@keyframes Toastify__bounceOutRight{20%{opacity:1;transform:translate3d(-20px,var(--y),0)}to{opacity:0;transform:translate3d(2000px,var(--y),0)}}@keyframes Toastify__bounceInLeft{0%,60%,75%,90%,to{animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate(-3000px)}60%{opacity:1;transform:translate(25px)}75%{transform:translate(-10px)}90%{transform:translate(5px)}to{transform:none}}@keyframes Toastify__bounceOutLeft{20%{opacity:1;transform:translate3d(20px,var(--y),0)}to{opacity:0;transform:translate3d(-2000px,var(--y),0)}}@keyframes Toastify__bounceInUp{0%,60%,75%,90%,to{animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translateY(3000px)}60%{opacity:1;transform:translateY(-20px)}75%{transform:translateY(10px)}90%{transform:translateY(-5px)}to{transform:translate(0,0)}}@keyframes Toastify__bounceOutUp{20%{transform:translate3d(0,calc(var(--y) - 10px),0)}40%,45%{opacity:1;transform:translate3d(0,calc(var(--y) + 20px),0)}to{opacity:0;transform:translateY(-2000px)}}@keyframes Toastify__bounceInDown{0%,60%,75%,90%,to{animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translateY(-3000px)}60%{opacity:1;transform:translateY(25px)}75%{transform:translateY(-10px)}90%{transform:translateY(5px)}to{transform:none}}@keyframes Toastify__bounceOutDown{20%{transform:translate3d(0,calc(var(--y) - 10px),0)}40%,45%{opacity:1;transform:translate3d(0,calc(var(--y) + 20px),0)}to{opacity:0;transform:translateY(2000px)}}.Toastify__bounce-enter--top-left,.Toastify__bounce-enter--bottom-left{animation-name:Toastify__bounceInLeft}.Toastify__bounce-enter--top-right,.Toastify__bounce-enter--bottom-right{animation-name:Toastify__bounceInRight}.Toastify__bounce-enter--top-center{animation-name:Toastify__bounceInDown}.Toastify__bounce-enter--bottom-center{animation-name:Toastify__bounceInUp}.Toastify__bounce-exit--top-left,.Toastify__bounce-exit--bottom-left{animation-name:Toastify__bounceOutLeft}.Toastify__bounce-exit--top-right,.Toastify__bounce-exit--bottom-right{animation-name:Toastify__bounceOutRight}.Toastify__bounce-exit--top-center{animation-name:Toastify__bounceOutUp}.Toastify__bounce-exit--bottom-center{animation-name:Toastify__bounceOutDown}@keyframes Toastify__zoomIn{0%{opacity:0;transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes Toastify__zoomOut{0%{opacity:1}50%{opacity:0;transform:translate3d(0,var(--y),0)scale3d(.3,.3,.3)}to{opacity:0}}.Toastify__zoom-enter{animation-name:Toastify__zoomIn}.Toastify__zoom-exit{animation-name:Toastify__zoomOut}@keyframes Toastify__flipIn{0%{opacity:0;animation-timing-function:ease-in;transform:perspective(400px)rotateX(90deg)}40%{animation-timing-function:ease-in;transform:perspective(400px)rotateX(-20deg)}60%{opacity:1;transform:perspective(400px)rotateX(10deg)}80%{transform:perspective(400px)rotateX(-5deg)}to{transform:perspective(400px)}}@keyframes Toastify__flipOut{0%{transform:translate3d(0,var(--y),0)perspective(400px)}30%{transform:translate3d(0,var(--y),0)perspective(400px)rotate3d(1,0,0,-20deg);opacity:1}to{transform:translate3d(0,var(--y),0)perspective(400px)rotate3d(1,0,0,90deg);opacity:0}}.Toastify__flip-enter{animation-name:Toastify__flipIn}.Toastify__flip-exit{animation-name:Toastify__flipOut}@keyframes Toastify__slideInRight{0%{visibility:visible;transform:translate(110%)}to{transform:translate3d(0,var(--y),0)}}@keyframes Toastify__slideInLeft{0%{visibility:visible;transform:translate(-110%)}to{transform:translate3d(0,var(--y),0)}}@keyframes Toastify__slideInUp{0%{visibility:visible;transform:translateY(110%)}to{transform:translate3d(0,var(--y),0)}}@keyframes Toastify__slideInDown{0%{visibility:visible;transform:translateY(-110%)}to{transform:translate3d(0,var(--y),0)}}@keyframes Toastify__slideOutRight{0%{transform:translate3d(0,var(--y),0)}to{visibility:hidden;transform:translate3d(110%,var(--y),0)}}@keyframes Toastify__slideOutLeft{0%{transform:translate3d(0,var(--y),0)}to{visibility:hidden;transform:translate3d(-110%,var(--y),0)}}@keyframes Toastify__slideOutDown{0%{transform:translate3d(0,var(--y),0)}to{visibility:hidden;transform:translateY(500px)}}@keyframes Toastify__slideOutUp{0%{transform:translate3d(0,var(--y),0)}to{visibility:hidden;transform:translateY(-500px)}}.Toastify__slide-enter--top-left,.Toastify__slide-enter--bottom-left{animation-name:Toastify__slideInLeft}.Toastify__slide-enter--top-right,.Toastify__slide-enter--bottom-right{animation-name:Toastify__slideInRight}.Toastify__slide-enter--top-center{animation-name:Toastify__slideInDown}.Toastify__slide-enter--bottom-center{animation-name:Toastify__slideInUp}.Toastify__slide-exit--top-left,.Toastify__slide-exit--bottom-left{animation-name:Toastify__slideOutLeft;animation-duration:.3s;animation-timing-function:ease-in}.Toastify__slide-exit--top-right,.Toastify__slide-exit--bottom-right{animation-name:Toastify__slideOutRight;animation-duration:.3s;animation-timing-function:ease-in}.Toastify__slide-exit--top-center{animation-name:Toastify__slideOutUp;animation-duration:.3s;animation-timing-function:ease-in}.Toastify__slide-exit--bottom-center{animation-name:Toastify__slideOutDown;animation-duration:.3s;animation-timing-function:ease-in}@keyframes Toastify__spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}
+  .Toastify__toast-container.Toastify__toast-container--top-center {
+    --toastify-color-light: #fff;
+    --toastify-color-dark: #121212;
+    --toastify-color-info: #3498db;
+    --toastify-color-success: #07bc0c;
+    --toastify-color-warning: #f1c40f;
+    --toastify-color-error: #e74c3c;
+    --toastify-color-transparent: hsla(0,0%,100%,.7);
+    --toastify-icon-color-info: var(--toastify-color-info);
+    --toastify-icon-color-success: var(--toastify-color-success);
+    --toastify-icon-color-warning: var(--toastify-color-warning);
+    --toastify-icon-color-error: var(--toastify-color-error);
+    --toastify-toast-width: 320px;
+    --toastify-toast-background: #fff;
+    --toastify-toast-min-height: 64px;
+    --toastify-toast-max-height: 800px;
+    --toastify-font-family: sans-serif;
+    --toastify-z-index: 9999;
+    --toastify-text-color-light: #757575;
+    --toastify-text-color-dark: #fff;
+    --toastify-text-color-info: #fff;
+    --toastify-text-color-success: #fff;
+    --toastify-text-color-warning: #fff;
+    --toastify-text-color-error: #fff;
+    --toastify-spinner-color: #616161;
+    --toastify-spinner-color-empty-area: #e0e0e0;
+    --toastify-color-progress-light: linear-gradient(90deg,#4cd964,#5ac8fa,#007aff,#34aadc,#5856d6,#ff2d55);
+    --toastify-color-progress-dark: #bb86fc;
+    --toastify-color-progress-info: var(--toastify-color-info);
+    --toastify-color-progress-success: var(--toastify-color-success);
+    --toastify-color-progress-warning: var(--toastify-color-warning);
+    --toastify-color-progress-error: var(--toastify-color-error);
+    --toastify-color-progress-bgo: 0.3;
+}
+/* 主题切换支持 - 统一的 CSS 变量系统 */
+:host {
+
+}
+
+:host([data-theme="dark"]) {
+
+}
+
+/* 强制覆盖 Tailwind 的 dark: 类 */
+:host:not([data-theme="dark"]) .text-gray-900 { color: #111827 !important; }
+  :host:not([data-theme="dark"]) .text-gray-600 { color: #4b5563 !important; }
+  :host:not([data-theme="dark"]) .border-slate-300 { border-color: #cbd5e1 !important; }
+  :host:not([data-theme="dark"]) .bg-white\/30 { background-color: rgba(255, 255, 255, 0.3) !important; }
+  :host:not([data-theme="dark"]) .border-t-slate-300 { border-top-color: #cbd5e1 !important; }
+  :host:not([data-theme="dark"]) .text-red-800 { color: #991b1b !important; }
+  :host:not([data-theme="dark"]) .text-green-600 { color: #16a34a !important; }
+  :host:not([data-theme="dark"]) .text-red-600 { color: #dc2626 !important; }
+  :host:not([data-theme="dark"]) .bg-yellow-300 { background-color: #fde047 !important; }
+  :host:not([data-theme="dark"]) .text-black { color: #000000 !important; }
+  :host:not([data-theme="dark"]) .bg-\[\#16a34a\] { background-color: #16a34a !important; }
+  :host:not([data-theme="dark"]) .bg-\[\#f1f1f1\] { background-color: #f1f1f1 !important; }
+  :host:not([data-theme="dark"]) .bg-white { background-color: #ffffff !important; }
+  :host:not([data-theme="dark"]) .border-t-slate-300 { border-top-color: #cbd5e1  !important; }
+  :host:not([data-theme="dark"]) .border-b-slate-300 { border-bottom-color: #cbd5e1  !important; }
+  :host:not([data-theme="dark"]) .border-l-slate-300 { border-left-color: #cbd5e1  !important; }
+  :host:not([data-theme="dark"]) .border-r-slate-300 { border-right-color: #cbd5e1  !important; }
+  :host:not([data-theme="dark"]) .hover\:text-red-500:hover { color: #ef4444 !important; }
+  :host:not([data-theme="dark"]) .hover\:scale-110:hover { transform: scale(1.1) !important; }
+  :host:not([data-theme="dark"]) .hover\:bg-gray-100:hover { background-color: #f3f4f6 !important; }
+  :host([data-theme="dark"]) .dark\:text-slate-50 { color: #f8fafc !important; }
+  :host([data-theme="dark"]) .dark\:text-slate-400 { color: #94a3b8 !important; }
+  :host([data-theme="dark"]) .dark\:border-gray-700 { border-color: #374151 !important; }
+  :host([data-theme="dark"]) .dark\:bg-\[\#1e1e1e\] { background-color: #1e1e1e !important; }
+  :host([data-theme="dark"]) .dark\:bg-black\/30 { background-color: rgba(0, 0, 0, 0.3) !important; }
+  :host([data-theme="dark"]) .dark\:bg-\[\#1e1e1e\] { background-color: #1e1e1e !important; }
+  :host([data-theme="dark"]) .dark\:border-t-gray-700 { border-top-color: #374151 !important; }
+  :host([data-theme="dark"]) .dark\:border-b-gray-700 { border-bottom-color: #374151  !important; }
+  :host([data-theme="dark"]) .dark\:border-l-gray-700 { border-left-color: #374151  !important; }
+  :host([data-theme="dark"]) .dark\:border-r-gray-700 { border-right-color: #374151  !important; }
+  :host([data-theme="dark"]) .dark\:hover\:text-red-400:hover { color: #f87171 !important; }
+  :host([data-theme="dark"]) .dark\:hover\:scale-110:hover { transform: scale(1.1) !important; }
+  :host([data-theme="dark"]) .dark\:hover\:bg-gray-700:hover { background-color: #374151 !important; }
+  :host:not([data-theme="dark"]) ::-webkit-scrollbar { width: 8px; height: 8px; }
+  :host:not([data-theme="dark"]) ::-webkit-scrollbar-track { background: #f1f1f1; }
+  :host:not([data-theme="dark"]) ::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px; }
+  :host:not([data-theme="dark"]) ::-webkit-scrollbar-thumb:hover { background: #a8a8a8; }
+  :host:not([data-theme="dark"]) * { scrollbar-width: thin; scrollbar-color: #c1c1c1 #f1f1f1; }
+  :host([data-theme="dark"]) ::-webkit-scrollbar-track { background: #2d2d2d; }
+  :host([data-theme="dark"]) ::-webkit-scrollbar-thumb { background: #555; }
+  :host([data-theme="dark"]) ::-webkit-scrollbar-thumb:hover { background: #777; }
+  :host([data-theme="dark"]) * { scrollbar-width: thin; scrollbar-color: #555 #2d2d2d; }
+
+
+</style><style class="darkreader darkreader--sync" media="screen"></style><div id="plasmo-shadow-container" style="z-index: 2147483647; position: relative;"><div id="plasmo-overlay-0" class="plasmo-csui-container" style="display: flex; position: absolute; top: 60px; left: 0px;"><div class="Toastify"></div></div></div></template></plasmo-csui><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style data-rc-order="prependQueue" data-css-hash="1bh7fxk" data-token-hash="17kd4a4">.anticon{display:inline-flex;align-items:center;color:inherit;font-style:normal;line-height:0;text-align:center;text-transform:none;vertical-align:-0.125em;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}.anticon >*{line-height:1;}.anticon svg{display:inline-block;}.anticon .anticon .anticon-icon{display:block;}</style><style class="darkreader darkreader--sync" media="screen"></style><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">@layer {
+html {
+    background-color: var(--darkreader-background-ffffff, #080b0c) !important;
+}
+html {
+    color-scheme: dark !important;
+}
+iframe {
+    color-scheme: dark !important;
+}
+html, body {
+    background-color: var(--darkreader-background-ffffff, #080b0c);
+}
+html, body {
+    border-color: var(--darkreader-border-4c4c4c, #716859);
+    color: var(--darkreader-text-000000, #f8f5f2);
+}
+a {
+    color: var(--darkreader-text-0040ff, #3399ff);
+}
+table {
+    border-color: var(--darkreader-border-808080, #4d5659);
+}
+mark {
+    color: var(--darkreader-text-000000, #f8f5f2);
+}
+::placeholder {
+    color: var(--darkreader-text-a9a9a9, #bab2a6);
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: var(--darkreader-background-faffbd, #3b4000) !important;
+    color: var(--darkreader-text-000000, #f8f5f2) !important;
+}
+::selection {
+    background-color: var(--darkreader-background-0060d4, #004aba) !important;
+    color: var(--darkreader-text-ffffff, #f8f5f2) !important;
+}
+::-moz-selection {
+    background-color: var(--darkreader-background-0060d4, #004aba) !important;
+    color: var(--darkreader-text-ffffff, #f8f5f2) !important;
+}
+}</style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula, a[data-testid="headerMediumLogo"]>svg, .d2l-navigation-link-image-container, .d2l-iframe-loading-container {
+    filter: invert(100%) hue-rotate(180deg) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}
+[data-darkreader-inline-bg] {
+  background: var(--darkreader-inline-bg) !important;
+}
+[data-darkreader-inline-border-short] {
+  border: var(--darkreader-inline-border-short) !important;
+}
+[data-darkreader-inline-border-bottom-short] {
+  border-bottom: var(--darkreader-inline-border-bottom-short) !important;
+}
+[data-darkreader-inline-border-left-short] {
+  border-left: var(--darkreader-inline-border-left-short) !important;
+}
+[data-darkreader-inline-border-right-short] {
+  border-right: var(--darkreader-inline-border-right-short) !important;
+}
+[data-darkreader-inline-border-top-short] {
+  border-top: var(--darkreader-inline-border-top-short) !important;
+}
+[data-darkreader-inline-invert] {
+    filter: invert(100%) hue-rotate(180deg);
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: var(--darkreader-background-ffffff, #080b0c);
+   --darkreader-neutral-text: var(--darkreader-text-000000, #f8f5f2);
+   --darkreader-selection-background: var(--darkreader-background-0060d4, #004aba);
+   --darkreader-selection-text: var(--darkreader-text-ffffff, #f8f5f2);
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <link rel="stylesheet" href="./HW03_ IntLists _ CS 61B Spring 2026_files/just-the-docs-default.css"><style class="darkreader darkreader--sync" media="screen"></style>
+
+  <link rel="stylesheet" href="./HW03_ IntLists _ CS 61B Spring 2026_files/just-the-docs-head-nav.css" id="jtd-head-nav-stylesheet" disabled="">
+
+  <style id="jtd-nav-activation">
+  
+
+    .site-nav > ul.nav-list:first-child > li > a,
+    
+    .site-nav > ul.nav-list:first-child > li > ul > li:not(:nth-child(3)) > a,
+    .site-nav > ul.nav-list:first-child > li > ul > li > ul > li a {
+      background-image: none;
+    }
+
+    .site-nav > ul.nav-list:not(:first-child) a,
+    .site-nav li.external a {
+      background-image: none;
+    }
+
+    .site-nav > ul.nav-list:first-child > li:nth-child(5) > ul > li:nth-child(3) > a {
+      font-weight: 600;
+      text-decoration: none;
+    }.site-nav > ul.nav-list:first-child > li:nth-child(5) > button svg,
+    .site-nav > ul.nav-list:first-child > li:nth-child(5) > ul > li:nth-child(3) > button svg {
+      transform: rotate(-90deg);
+    }.site-nav > ul.nav-list:first-child > li.nav-list-item:nth-child(5) > ul.nav-list,
+    .site-nav > ul.nav-list:first-child > li.nav-list-item:nth-child(5) > ul.nav-list > li.nav-list-item:nth-child(3) > ul.nav-list {
+      display: block;
+    }
+  </style><style class="darkreader darkreader--sync" media="screen"></style>
+
+  
+
+  
+    <script src="./HW03_ IntLists _ CS 61B Spring 2026_files/lunr.min.js.下载"></script><meta name="darkreader" content="d30f10616d404f4094178e6b3ba153ec"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: var(--darkreader-background-ffd76e, #855b00) !important;
+    border-color: var(--darkreader-background-c59d00, #b08800) !important;
+    color: var(--darkreader-text-302505, #e4e1db) !important;
+}
+#vimvixen-console-frame {
+    color-scheme: light !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: var(--darkreader-background-add8e6, #0c4152) !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: var(--darkreader-background-cfecf5, #002e3d) !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: var(--darkreader-background-f5f5f5, #0f1213) !important;
+}
+.tou-uknfeu {
+    background-color: var(--darkreader-background-faedda, #3a1e00) !important;
+}
+.tou-6i3zyv {
+    background-color: var(--darkreader-background-85c3d8, #16576d) !important;
+}
+div.mermaid-viewer-control-panel .btn {
+    background-color: var(--darkreader-neutral-background);
+    fill: var(--darkreader-neutral-text);
+}
+svg g rect.er {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.entityBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxOdd {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxEven {
+    fill: var(--darkreader-selection-background);
+    fill-opacity: 0.8 !important;
+}
+svg rect.er.relationshipLabelBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g g.nodes rect,
+svg g g.nodes polygon {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.task {
+    fill: var(--darkreader-selection-background) !important;
+}
+svg line.messageLine0,
+svg line.messageLine1 {
+    stroke: var(--darkreader-neutral-text) !important;
+}
+div.mermaid .actor {
+    fill: var(--darkreader-neutral-background) !important;
+}
+mitid-authenticators-code-app > .code-app-container {
+    background-color: white !important;
+    padding-top: 1rem;
+}
+iframe#unpaywall[src$="unpaywall.html"] {
+    color-scheme: light !important;
+}
+select {
+    --darkreader-bg--form-control-background-color: rgba(22, 22, 22, 0) !important;
+}
+body#tumblr {
+    --darkreader-bg--secondary-accent: 31, 32, 34 !important;
+    --darkreader-bg--white: 23, 23, 23 !important;
+    --darkreader-text--black: 228, 224, 218 !important;
+}
+:host {
+    --d2l-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-button-icon-background-color-hover: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-color-ferrite: var(--darkreader-neutral-text) !important;
+    --d2l-color-sylvite: var(--darkreader-bg--d2l-color-sylvite) !important;
+    --d2l-dropdown-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-dropdown-border-color: var(--darkreader-border--d2l-color-mica) !important;
+    --d2l-input-backgroud-color: var(--darkreader-neutral-background) !important;
+    --d2l-menu-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-tooltip-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-tooltip-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+:host([_floating]) .d2l-floating-buttons-container {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-top-color: var(--darkreader-border--d2l-color-mica) !important;
+    opacity: 0.88 !important;
+}
+d2l-card {
+    background: var(--darkreader-neutral-background) !important;
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+d2l-dropdown-content > div,
+d2l-menu-item {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-radius: 10px !important;
+}
+d2l-empty-state-simple {
+    border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-button-filter > ul > li > a.vui-button {
+    border-color: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-label-text:has(.d2l-button-subtle-content):hover,
+.d2l-label-text:has(.d2l-button-subtle-content):focus,
+.d2l-label-text:has(.d2l-button-subtle-content):active {
+    background-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-navigation-centerer {
+    color: inherit !important;
+}
+.d2l-tabs-layout {
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+.d2l-input,
+.d2l-calendar-date,
+.d2l-htmleditor-container {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-collapsible-panel {
+    border: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+    border-radius: 0.4rem !important;
+}
+.d2l-collapsible-panel-divider {
+    border-bottom: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-w2d-flex {
+    border-bottom: 2px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-collapsible-panel scrolled,
+.d2l-collapsible-panel-header,
+.d2l-w2d-collection-fixed {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-loading-spinner-bg {
+    fill: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-loading-spinner-bg-stroke {
+    stroke: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-loading-spinner-wrapper svg path,
+.d2l-loading-spinner-wrapper svg circle {
+    fill: var(--darkreader-neutral-background) !important;
+}
+.d2l-twopanelselector-side.d2l-twopanelselector-side-sep {
+    background: var(--darkreader-bg--d2l-color-mica) !important;
+}
+.d2l-le-TreeAccordionItem-anchor::before {
+    background: var(--darkreader-bg--d2l-color-corundum) !important;
+}
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }</style>
+  
+
+  <script src="./HW03_ IntLists _ CS 61B Spring 2026_files/just-the-docs.js.下载"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+  <link rel="icon" href="https://sp26.datastructur.es/favicon.ico" type="image/x-icon">
+
+
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>HW03: IntLists | CS 61B Spring 2026</title>
+<meta name="generator" content="Jekyll v4.4.1">
+<meta property="og:title" content="HW03: IntLists">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Data Structures at UC Berkeley">
+<meta property="og:description" content="Data Structures at UC Berkeley">
+<link rel="canonical" href="https://sp26.datastructur.es/homeworks/hw03/">
+<meta property="og:url" content="https://sp26.datastructur.es/homeworks/hw03/">
+<meta property="og:site_name" content="CS 61B Spring 2026">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="HW03: IntLists">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Data Structures at UC Berkeley","headline":"HW03: IntLists","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://sp26.datastructur.es/assets/images/bee.webp"}},"url":"https://sp26.datastructur.es/homeworks/hw03/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <link rel="preload" href="https://sp26.datastructur.es/assets/css/just-the-docs-dark.css" as="style">
+
+<!-- Intentionally duplicates the default theme stylesheet so there's a fallback when changing themes -->
+<link id="jtdThemeCSS" rel="stylesheet" href="./HW03_ IntLists _ CS 61B Spring 2026_files/just-the-docs-default.css"><style class="darkreader darkreader--sync" media="screen"></style>
+
+<script>
+  /* Script to enable persistent dark mode. */
+
+  jtd.getTheme = function () {
+    var cssFileHref = (
+      document.getElementById('jtdThemeCSS') || document.querySelector('[rel="stylesheet"]')
+    ).getAttribute('href');
+    return cssFileHref.substring(cssFileHref.lastIndexOf('-') + 1, cssFileHref.length - 4);
+  };
+
+  jtd.setTheme = function (theme) {
+    var cssFile = document.getElementById('jtdThemeCSS') || document.querySelector('[rel="stylesheet"]');
+    cssFile.setAttribute('href', cssFile.getAttribute('href').replace(jtd.getTheme(), theme));
+  };
+
+  let toggleDark = () => {
+    let setDark = jtd.getTheme() !== 'dark';
+    document.documentElement.setAttribute('data-theme', setDark ? 'dark' : 'default');
+    document.documentElement.setAttribute('data-theme', setDark ? 'dark' : 'default');
+    jtd.setTheme(setDark ? 'dark' : 'default');
+    localStorage.setItem('darkMode', String(setDark));
+
+    if (typeof calendar !== 'undefined') {
+      calendar.setColorScheme(setDark ? 'dark' : 'light');
+    }
+  };
+
+  if (localStorage.getItem('darkMode') === 'true') {
+    toggleDark();
+  }
+
+  // Easter egg: Play audio between 7 PM and 2 AM with 1/20000 chance after user interaction
+  let hasInteracted = false;
+  let easterEggChecked = false;
+
+  function checkEasterEgg() {
+    if (easterEggChecked || !hasInteracted) return;
+    easterEggChecked = true;
+
+    const now = new Date();
+    const hour = now.getHours();
+    
+    // Check if time is between 7 PM (19:00) and 2 AM (2:00)
+    const isNightTime = hour >= 19 || hour < 2;
+    
+    console.log(`[Easter Egg] Time check: ${hour}:${now.getMinutes()}, isNightTime: ${isNightTime}`);
+    
+    const randomValue = Math.random();
+    const threshold = 1/2000;
+    console.log(`[Easter Egg] Random value: ${randomValue}, threshold: ${threshold}, triggered: ${randomValue < threshold}`);
+    
+    if (isNightTime && randomValue < threshold) {
+      console.log('[Easter Egg] Attempting to play audio...');
+      const audioUrl = 'https://joshh.ug/4hxjhb.mp3';
+      const audio = new Audio(audioUrl);
+      audio.volume = 0.3;
+      
+      audio.addEventListener('loadstart', () => console.log('[Easter Egg] Audio loading started'));
+      audio.addEventListener('canplay', () => console.log('[Easter Egg] Audio can play'));
+      audio.addEventListener('play', () => console.log('[Easter Egg] Audio playback started'));
+      audio.addEventListener('ended', () => console.log('[Easter Egg] Audio playback ended'));
+      audio.addEventListener('error', (e) => {
+        console.error('[Easter Egg] Audio error:', e);
+        console.error('[Easter Egg] Audio error details:', {
+          code: e.target?.error?.code,
+          message: e.target?.error?.message,
+          url: audioUrl
+        });
+      });
+      
+      audio.play().catch((error) => {
+        console.error('[Easter Egg] Audio play failed:', error);
+        console.error('[Easter Egg] Play error details:', {
+          name: error.name,
+          message: error.message,
+          url: audioUrl
+        });
+      });
+    }
+  }
+
+  function handleUserInteraction() {
+    if (!hasInteracted) {
+      hasInteracted = true;
+      console.log('[Easter Egg] User interaction detected, checking easter egg...');
+      checkEasterEgg();
+    }
+  }
+
+  // Listen for various user interactions
+  ['click', 'keydown', 'touchstart'].forEach(eventType => {
+    document.addEventListener(eventType, handleUserInteraction, { once: true });
+  });
+</script>
+
+<!-- Script for LaTeX rendering. -->
+<link rel="stylesheet" href="./HW03_ IntLists _ CS 61B Spring 2026_files/katex.min.css"><style class="darkreader darkreader--sync" media="screen"></style>
+<script defer="" src="./HW03_ IntLists _ CS 61B Spring 2026_files/katex.min.js.下载"></script>
+<script>
+  function renderKaTeX() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false },
+        { left: '\\[', right: '\\]', display: true },
+      ],
+    });
+  }
+</script>
+<script defer="" src="./HW03_ IntLists _ CS 61B Spring 2026_files/auto-render.min.js.下载" onload="renderKaTeX();"></script>
+
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="https://sp26.datastructur.es/homeworks/hw03/#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+  <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+  <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+  <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+  <title id="svg-external-link-title">(external link)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+  <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewBox="0 0 24 24">
+  <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewBox="0 0 16 16">
+  <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"></path>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"></path>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+  <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"></path>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"></path>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <div class="side-bar">
+  <div class="site-header" role="banner">
+    <a href="https://sp26.datastructur.es/" class="site-title lh-tight">
+
+
+  <img src="./HW03_ IntLists _ CS 61B Spring 2026_files/bee.webp" style="height: 100%; width: auto; max-height: 2.25rem;" alt="Course Logo">
+  <span style="margin-left: 0.5em; width: 100%">CS 61B SP26</span>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Main" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list"><li class="nav-list-item"><a href="https://sp26.datastructur.es/calendar/" class="nav-list-link">Calendar</a></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="Policies submenu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="https://sp26.datastructur.es/policies/" class="nav-list-link">Policies</a><ul class="nav-list"><li class="nav-list-item"><a href="https://sp26.datastructur.es/policies/exams/" class="nav-list-link">Exam Policies</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/policies/lateness/" class="nav-list-link">Extensions Policy</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/policies/cs47b/" class="nav-list-link">CS 47B</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/policies/academic-misconduct/" class="nav-list-link">Academic Misconduct</a></li></ul></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/faq/" class="nav-list-link">FAQ</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/staff/" class="nav-list-link">Staff</a></li><li class="nav-list-item active"><button class="nav-list-expander btn-reset" aria-label="Homeworks submenu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="https://sp26.datastructur.es/homeworks/" class="nav-list-link">Homeworks</a><ul class="nav-list"><li class="nav-list-item"><a href="https://sp26.datastructur.es/homeworks/hw01/" class="nav-list-link">HW01: Setup</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/homeworks/hw02/" class="nav-list-link">HW02: Java Intro</a></li><li class="nav-list-item active"><a class="nav-list-link active">HW03: IntLists</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/homeworks/hw04/" class="nav-list-link">HW04: CBTF Practice</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/homeworks/hw06/" class="nav-list-link">HW06: BSTMap</a></li></ul></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="Mini-Projects submenu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="https://sp26.datastructur.es/projects/" class="nav-list-link">Mini-Projects</a><ul class="nav-list"><li class="nav-list-item"><a href="https://sp26.datastructur.es/projects/proj0/" class="nav-list-link">Project 0: Particle Simulator</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/projects/proj1/" class="nav-list-link">Project 1: LinkedListDeque61B</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/projects/proj2/" class="nav-list-link">Project 2: ArrayDeque61B</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/projects/proj3/" class="nav-list-link">Project 3: Percolation</a></li></ul></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="Project 4 submenu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="https://sp26.datastructur.es/proj4/" class="nav-list-link">Project 4</a><ul class="nav-list"><li class="nav-list-item"><a href="https://sp26.datastructur.es/proj4/proj4a/" class="nav-list-link">4A: NGrams</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/proj4/proj4b/" class="nav-list-link">4B: Wordnet (Design)</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/proj4/proj4c/" class="nav-list-link">4C: Wordnet (k==0)</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/proj4/proj4d/" class="nav-list-link">4D: Wordnet (k!=0)</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/proj4/proj4-bonus-features/" class="nav-list-link">Above and Beyond</a></li></ul></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="Troubleshooting submenu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="https://sp26.datastructur.es/troubleshooting/" class="nav-list-link">Troubleshooting</a><ul class="nav-list"><li class="nav-list-item"><a href="https://sp26.datastructur.es/troubleshooting/git-wtfs/" class="nav-list-link">Git WTFS</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/troubleshooting/intellij-wtfs/" class="nav-list-link">IntelliJ WTFS</a></li></ul></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="Resources submenu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="https://sp26.datastructur.es/resources/" class="nav-list-link">Resources</a><ul class="nav-list"><li class="nav-list-item"><a href="https://sp26.datastructur.es/resources/assignment-workflow/" class="nav-list-link">61B Assignment Workflow</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/resources/style-guide/" class="nav-list-link">61B Style Guide</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/resources/design-doc-guide/" class="nav-list-link">Design Doc Guide</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/resources/ed-guide/" class="nav-list-link">Ed Guide</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/resources/exam-archive/" class="nav-list-link">Exam Archive</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/resources/exam-study-tips/" class="nav-list-link">Exam Study Tips</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/resources/using-git/" class="nav-list-link">Using Git</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/resources/using-oh/" class="nav-list-link">Using Office Hours</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/resources/using-terminal/" class="nav-list-link">Using the Terminal</a></li></ul></li></ul>
+  
+</nav>
+
+
+
+
+  
+  
+    <div class="site-footer">
+	Report an <a href="https://dap.berkeley.edu/get-help/report-web-accessibility-issue">accessibility issue</a>.
+
+	<br><br>
+
+	This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+</div>
+  
+</div>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search CS 61B Spring 2026" autocomplete="off">
+    <label for="search-input" class="search-label">
+      <span class="sr-only">Search CS 61B Spring 2026</span>
+      <svg viewBox="0 0 24 24" class="search-icon" aria-hidden="true"><use xlink:href="#svg-search"></use></svg>
+    </label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+    <nav aria-label="Auxiliary" class="aux-nav">
+  <ul class="aux-nav-list">
+    
+      <li class="aux-nav-list-item">
+        <a href="https://sp26.datastructur.es/homeworks/hw03/#" class="site-button">
+          Dark Mode
+        </a>
+      </li>
+    
+      <li class="aux-nav-list-item">
+        <a href="https://edstem.org/us/courses/91787" class="site-button">
+          Ed
+        </a>
+      </li>
+    
+      <li class="aux-nav-list-item">
+        <a href="https://cs61b-oh.eecs.berkeley.edu/" class="site-button">
+          OH Queue
+        </a>
+      </li>
+    
+      <li class="aux-nav-list-item">
+        <a href="https://beacon.datastructur.es/" class="site-button">
+          Beacon
+        </a>
+      </li>
+    
+      <li class="aux-nav-list-item">
+        <a href="https://sections.datastructur.es/" class="site-button">
+          Sections
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+  
+</div>
+
+    <div class="main-content-wrap">
+      <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb-nav-list">
+    <li class="breadcrumb-nav-list-item"><a href="https://sp26.datastructur.es/homeworks/">Homeworks</a></li>
+    <li class="breadcrumb-nav-list-item"><span>HW03: IntLists</span></li>
+  </ol>
+</nav>
+
+
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <div class="content-container">
+    <nav class="content-nav nav-list js-toc" aria-label="In-page navigation"><ul class="nav-list "><li class="nav-list-item"><a href="https://sp26.datastructur.es/homeworks/hw03/#starter-code" class="nav-list-link node-name--H2 ">Starter Code</a></li><li class="nav-list-item active"><a href="https://sp26.datastructur.es/homeworks/hw03/#task-1-filling-in-an-intlist-method" class="nav-list-link node-name--H2  active">Task 1: Filling in an IntList method</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/homeworks/hw03/#introducing-the-debugger" class="nav-list-link node-name--H2 ">Introducing the Debugger</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/homeworks/hw03/#task-2-using-the-debugger" class="nav-list-link node-name--H2 ">Task 2: Using the Debugger</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/homeworks/hw03/#task-3-conditional-breakpoints" class="nav-list-link node-name--H2 ">Task 3: Conditional Breakpoints</a></li><li class="nav-list-item"><a href="https://sp26.datastructur.es/homeworks/hw03/#submission" class="nav-list-link node-name--H2 ">Submission</a></li></ul></nav>
+  <div class="content">
+<h1 id="homework-3-intlists">
+  
+  
+    <a href="https://sp26.datastructur.es/homeworks/hw03/#homework-3-intlists" class="anchor-heading" aria-labelledby="homework-3-intlists"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Homework 3: IntLists
+  
+  
+</h1>
+    
+
+<p>Before you start this assignment you should have:</p>
+<ul>
+  <li>Watched Lecture 5 on IntLists.</li>
+  <li>Looked at the <a href="https://github.com/Berkeley-CS61B/lectureCode-sp26/tree/main/lec5_lists1">Lecture 5 code on GitHub</a>.</li>
+</ul>
+
+<p>Follow the <a href="https://sp26.datastructur.es/resources/assignment-workflow/">Assignment Workflow Guide</a> to get started with this assignment. This starter code is in the <code class="language-plaintext highlighter-rouge">hw03</code> folder.</p>
+
+<p>This homework has two parts:</p>
+<ul>
+  <li>Implementing an IntList method.</li>
+  <li>Using the Debugger.</li>
+</ul>
+<h2 id="starter-code">
+  
+  
+    <a href="https://sp26.datastructur.es/homeworks/hw03/#starter-code" class="anchor-heading" aria-labelledby="starter-code"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Starter Code
+  
+  
+</h2>
+    
+
+<p>This assignment uses <code class="language-plaintext highlighter-rouge">IntList</code> as described in lecture.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">IntList</span> <span class="o">{</span>
+    <span class="kt">int</span> <span class="n">first</span><span class="o">;</span>
+    <span class="nc">IntList</span> <span class="n">rest</span><span class="o">;</span>
+
+    <span class="kd">public</span> <span class="nf">IntList</span><span class="o">(</span><span class="kt">int</span> <span class="n">first</span><span class="o">,</span> <span class="nc">IntList</span> <span class="n">rest</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">first</span> <span class="o">=</span> <span class="n">first</span><span class="o">;</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">rest</span> <span class="o">=</span> <span class="n">rest</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="cm">/** Return the number of ints in this list. */</span>
+    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">size</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">rest</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">return</span> <span class="mi">1</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">rest</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">+</span> <span class="mi">1</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="cm">/** Returns the int at index i. */</span>
+    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">get</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">first</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="n">rest</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="cm">/** Returns the int at index i, using an iterative approach. */</span>
+    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">getIterative</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">IntList</span> <span class="n">current</span> <span class="o">=</span> <span class="k">this</span><span class="o">;</span>
+        <span class="k">while</span> <span class="o">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">current</span> <span class="o">=</span> <span class="n">current</span><span class="o">.</span><span class="na">rest</span><span class="o">;</span>
+            <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="n">current</span><span class="o">.</span><span class="na">first</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="cm">/** Return a new list with the same ints, but incremented by 1. */</span>
+    <span class="kd">public</span> <span class="nc">IntList</span> <span class="nf">incrementRecursiveNonDestructive</span><span class="o">()</span> <span class="o">{</span>
+        <span class="nc">IntList</span> <span class="n">incremented</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="n">first</span> <span class="o">+</span> <span class="mi">1</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">rest</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">incremented</span><span class="o">.</span><span class="na">rest</span> <span class="o">=</span> <span class="n">rest</span><span class="o">.</span><span class="na">incrementRecursiveNonDestructive</span><span class="o">();</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="n">incremented</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">()</span> <span class="o">{</span>
+        <span class="nc">IntList</span> <span class="n">l1</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">5</span><span class="o">,</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">10</span><span class="o">,</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">15</span><span class="o">,</span> <span class="kc">null</span><span class="o">)));</span>
+
+        <span class="nc">IntList</span> <span class="n">l2</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">5</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+        <span class="n">l2</span><span class="o">.</span><span class="na">rest</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">10</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+        <span class="n">l2</span><span class="o">.</span><span class="na">rest</span><span class="o">.</span><span class="na">rest</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">15</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+
+        <span class="nc">IntList</span> <span class="n">l3</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">15</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+        <span class="n">l3</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">10</span><span class="o">,</span> <span class="n">l3</span><span class="o">);</span>
+        <span class="n">l3</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">5</span><span class="o">,</span> <span class="n">l3</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div>
+<h2 id="task-1-filling-in-an-intlist-method">
+  
+  
+    <a href="https://sp26.datastructur.es/homeworks/hw03/#task-1-filling-in-an-intlist-method" class="anchor-heading" aria-labelledby="task-1-filling-in-an-intlist-method"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Task 1: Filling in an IntList method
+  
+  
+</h2>
+    
+
+<p>In lecture, we wrote an instance method <code class="language-plaintext highlighter-rouge">incrRecursiveNonDestructive</code> that incremented every value of the list using recursion. This method was Non-destructive.</p>
+
+<p>Reminder that “Non-destructive” means that if we run:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">IntList</span> <span class="no">L</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">5</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+<span class="no">L</span><span class="o">.</span><span class="na">rest</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">7</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+<span class="no">L</span><span class="o">.</span><span class="na">rest</span><span class="o">.</span><span class="na">rest</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">9</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+
+<span class="nc">IntList</span> <span class="no">M</span> <span class="o">=</span> <span class="n">incrRecursiveNondestructive</span><span class="o">(</span><span class="no">L</span><span class="o">,</span> <span class="mi">3</span><span class="o">);</span>
+</code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div>
+
+<p>Then <code class="language-plaintext highlighter-rouge">M</code> should be <code class="language-plaintext highlighter-rouge">8 -&gt; 10 -&gt; 12 -&gt; null</code> and <code class="language-plaintext highlighter-rouge">L</code> should remain <code class="language-plaintext highlighter-rouge">5 -&gt; 7 -&gt; 9 -&gt; null</code>.</p>
+
+<p>In this homework, you should instead write a static <em>destructive</em> version of the method. We’re doing this just so you can get some more practice with writing <code class="language-plaintext highlighter-rouge">IntList</code> code, it’s not any better or worse than the non-static non-destructive version.</p>
+
+<p class="TASK">To do this, fill in the <code class="language-plaintext highlighter-rouge">incrRecursiveDestructive</code> method in the provided code.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="cm">/**
+     * Returns an IntList identical to L, but with
+     * each element incremented by x. Modifies the original list.
+     * You are not allowed to use "new" in this method.     
+     */</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="nc">IntList</span> <span class="nf">incrRecursiveDestructive</span><span class="o">(</span><span class="nc">IntList</span> <span class="no">L</span><span class="o">,</span> <span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// TODO: Fill in this code</span>
+        <span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
+    <span class="o">}</span>
+</code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div>
+
+<p>This method should be <strong>destructive</strong> (also called “mutating” or “in-place”), i.e. it modifies the original list. That is, if you run the code below:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">IntList</span> <span class="no">L</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">5</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+<span class="no">L</span><span class="o">.</span><span class="na">rest</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">7</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+<span class="no">L</span><span class="o">.</span><span class="na">rest</span><span class="o">.</span><span class="na">rest</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntList</span><span class="o">(</span><span class="mi">9</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+
+<span class="nc">IntList</span> <span class="no">M</span> <span class="o">=</span> <span class="n">incrRecursiveDestructive</span><span class="o">(</span><span class="no">L</span><span class="o">,</span> <span class="mi">3</span><span class="o">);</span>
+</code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div>
+
+<p>Then both L and M should be <code class="language-plaintext highlighter-rouge">8 -&gt; 10 -&gt; 12 -&gt; null</code>.</p>
+
+<p class="NOTE">Sometimes, a destructive implementation is simpler to write than a non-destructive implementation, though in this specific case it’s about the same difficulty.</p>
+
+<p class="CAUTION">This assignment has one hidden test, which tests for whether your method is recursive or not.</p>
+
+<p>If you want more practice, we’ve provided a few additional optional methods that you can implement in the IntList class: <code class="language-plaintext highlighter-rouge">sum()</code>, <code class="language-plaintext highlighter-rouge">addLast(int x)</code>, and <code class="language-plaintext highlighter-rouge">addFirst(int x)</code>. These methods are described in the source code.</p>
+<h2 id="introducing-the-debugger">
+  
+  
+    <a href="https://sp26.datastructur.es/homeworks/hw03/#introducing-the-debugger" class="anchor-heading" aria-labelledby="introducing-the-debugger"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Introducing the Debugger
+  
+  
+</h2>
+    
+
+<p><strong>Why use the debugger?</strong></p>
+
+<p>In previous classes, you might have used <em>print debugging</em> to debug: adding print statements to see the values of certain variables as a program runs. While print debugging can be very useful, it has a few disadvantages:</p>
+
+<ul>
+  <li>It requires you to modify your code, and clean it up after.</li>
+  <li>It’s tedious to decide and write out exactly what you want to print.
+Printing isn’t always formatted nicely.</li>
+</ul>
+
+<p>In this second part of the homework, we’ll show you a new technique, interactive debugging – debugging by using an interactive tool, or a <em>debugger</em>. We’ll focus on IntelliJ’s built-in debugger.</p>
+
+<p><strong>Breakpoints</strong></p>
+
+<p>Before starting the IntelliJ debugger, you should set a few <em>breakpoints</em>. Breakpoints mark places in your code where you can pause the program and see the values of all the variables. This:</p>
+
+<ul>
+  <li>Doesn’t require you to modify your code or clean it up after, since breakpoints are ignored in normal execution.</li>
+  <li>Lets you see all the variables without needing to write print statements.</li>
+  <li>Lets IntelliJ display everything in a structured manner.</li>
+</ul>
+
+<p>To set a breakpoint, click the area just to the right of the line number.</p>
+
+<p><img src="./HW03_ IntLists _ CS 61B Spring 2026_files/1-code-breakpoints.webp" alt="code breakpoints" style="max-height: 500px;"></p>
+
+<p><strong>Interactive debugging</strong></p>
+
+<p>After setting breakpoints, we can start a debugging session! Click on the green triangle next to the class or test you want to debug (in test files there may be two green triangles). Instead of clicking the green triangle to run, click the <img src="./HW03_ IntLists _ CS 61B Spring 2026_files/debug.webp" alt="debug" class="inline"> debug option:</p>
+
+<p><img src="./HW03_ IntLists _ CS 61B Spring 2026_files/2-run-debugger.webp" alt="run debugger" style="max-height: 500px;"></p>
+
+<p>The program will now run until it hits its first breakpoint. A debugger window should also appear on the bottom of the interface, where the console was.</p>
+
+<p><img src="./HW03_ IntLists _ CS 61B Spring 2026_files/3-debugging-session.webp" alt="debugger session" style="max-height: 500px;"></p>
+
+<p>On the left, you will be able to see all current method calls and on the right, you will be able to see the values of instantiated variables at this point in the program (they will also be shown in gray text in the editor). For instances of classes, you can click the dropdown to expand them and look at their fields.</p>
+
+<p>In the debugger, you have a few options:</p>
+
+<ul>
+  <li>Learn something from the displayed values, identify what’s wrong, and fix your bug! Click <img src="./HW03_ IntLists _ CS 61B Spring 2026_files/stop.webp" alt="stop" class="inline"> to stop the debug session.</li>
+  <li>Click <img src="./HW03_ IntLists _ CS 61B Spring 2026_files/resume.webp" alt="resume" class="inline"> to resume the program (until it hits another breakpoint or terminates).</li>
+  <li>Click <img src="./HW03_ IntLists _ CS 61B Spring 2026_files/step-over.webp" alt="step over" class="inline"> to advance the program by one line of code.
+    <ul>
+      <li><img src="./HW03_ IntLists _ CS 61B Spring 2026_files/step-into.webp" alt="step into" class="inline"> does something similar, but it will step into any method called in the current line, while <img src="./HW03_ IntLists _ CS 61B Spring 2026_files/step-over.webp" alt="step over" class="inline"> will step over it.</li>
+      <li><img src="./HW03_ IntLists _ CS 61B Spring 2026_files/step-out.webp" alt="step out" class="inline"> will advance the program until after it returns from the current method.</li>
+    </ul>
+  </li>
+  <li>If you accidentally step too far and want to start the session over, click <img src="./HW03_ IntLists _ CS 61B Spring 2026_files/rerun.webp" alt="rerun" class="inline"> (at least right now, there isn’t a good way to directly step back).</li>
+</ul>
+<h2 id="task-2-using-the-debugger">
+  
+  
+    <a href="https://sp26.datastructur.es/homeworks/hw03/#task-2-using-the-debugger" class="anchor-heading" aria-labelledby="task-2-using-the-debugger"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Task 2: Using the Debugger
+  
+  
+</h2>
+    
+
+<p>In <code class="language-plaintext highlighter-rouge">IntListMystery.java</code>, the <code class="language-plaintext highlighter-rouge">mystery</code> function creates an IntList and adds some mystery numbers to it. (You don’t have to understand the code in <code class="language-plaintext highlighter-rouge">mystery</code>.)</p>
+
+<p class="TASK">Set a breakpoint in the <code class="language-plaintext highlighter-rouge">mystery</code> function. Then, start the debugger, so that the program runs until the first time it reaches your breakpoint. From the debugger, can you figure out the first number added to the IntList?</p>
+
+<p>If you’d like to view a box-and-pointer diagram in the debugger, click “Java Visualizer” in the debugger:</p>
+
+<p><img src="./HW03_ IntLists _ CS 61B Spring 2026_files/4-java-visualizer-debug.webp" alt="Java Visualizer Tab" style="max-height: 500px;"></p>
+
+<p><strong>Your task:</strong> Use the debugger buttons (described above) to figure out the first 5 numbers added to the mystery IntList. Then, write the numbers in the <code class="language-plaintext highlighter-rouge">firstFiveNumbers</code> method.</p>
+<h2 id="task-3-conditional-breakpoints">
+  
+  
+    <a href="https://sp26.datastructur.es/homeworks/hw03/#task-3-conditional-breakpoints" class="anchor-heading" aria-labelledby="task-3-conditional-breakpoints"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Task 3: Conditional Breakpoints
+  
+  
+</h2>
+    
+
+<p>Consider a program that loops 5000 times. Trying to step through each time to find the error wouldn’t be too efficient. Instead, you would want your program to pause on a specific iteration, such as the last one.</p>
+
+<p>In other words, you would want your program to pause on certain conditions. To do so, create a breakpoint at the line of interest and open the “Edit breakpoint” menu by right-clicking the breakpoint icon itself. There, you can enter a boolean condition such that the program will only pause at this breakpoint if the condition is true. It will look something like this:</p>
+
+<p><img src="./HW03_ IntLists _ CS 61B Spring 2026_files/5-conditional-breakpoint.webp" alt="Conditional Breakpoint" style="max-height: 500px;"></p>
+
+<p class="TASK">Use a conditional breakpoint to figure out the 500th number added to the mystery IntList. Then, write the number in the <code class="language-plaintext highlighter-rouge">middleNumber</code> method.</p>
+
+<p>Hint: The list should have 499 elements just before adding this number, and 500 elements just after adding this number. You can the debugger has an “Evaluate Expression” tool that you can use to type a line of code and see the result. For example, you could type <code class="language-plaintext highlighter-rouge">L.iterativeSize()</code> in the box to see the current size of the IntList!</p>
+
+<p><img src="./HW03_ IntLists _ CS 61B Spring 2026_files/6-expression-box.webp" alt="Expression Box" style="max-height: 500px;"></p>
+<h2 id="submission">
+  
+  
+    <a href="https://sp26.datastructur.es/homeworks/hw03/#submission" class="anchor-heading" aria-labelledby="submission"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Submission
+  
+  
+</h2>
+    
+
+<p>Graded files that you need to modify:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">IntList.java</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IntListMystery.java</code></li>
+</ul>
+
+<p>Follow the <a href="https://sp26.datastructur.es/resources/assignment-workflow/#submitting-to-gradescope">Assignment Workflow Guide</a> to submit. You can submit as many times as you want. The score you see on Gradescope is your final score for this homework.</p>
+
+  </div>
+</div>
+
+          
+
+          
+            
+          
+        </main>
+        
+
+  <hr>
+  <footer>
+    
+
+    
+
+
+
+
+
+
+
+
+
+<script>
+  (function () {
+    var navList = document.querySelector('.aux-nav-list');
+    if (!navList || !navList.firstElementChild) return;
+    var darkToggle = navList.firstElementChild;
+    darkToggle.addEventListener('click', (e) => {
+      e.preventDefault();
+      toggleDark();
+    });
+  })();
+</script>
+
+<script src="./HW03_ IntLists _ CS 61B Spring 2026_files/tocbot.min.js.下载"></script>
+<script>
+  // Tries to mirror the HTML TOC
+  tocbot.init({
+    tocSelector: '.js-toc',
+    contentSelector: '.content',
+    headingSelector: 'h2,h3,h4,h5,h6',
+    ignoreSelector: '.no_toc',
+    hasInnerContainers: true,
+    linkClass: 'nav-list-link',
+    activeLinkClass: 'active',
+    listClass: 'nav-list',
+    listItemClass: 'nav-list-item',
+    activeListItemClass: 'active',
+    collapseDepth: 3,
+    scrollSmooth: false,
+  });
+</script>
+
+
+    
+  </footer>
+
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+
+
+
+</body></html>
